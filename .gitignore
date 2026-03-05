@@ -1,0 +1,76 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/backup-*
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/plugins/*
+!wp-content/plugins/.gitkeep
+wp-content/themes/*
+!wp-content/themes/.gitkeep
+wp-content/mu-plugins/*
+!wp-content/mu-plugins/.gitkeep
+
+# WordPress database
+db_backup/
+mysqldump.sql
+
+# WordPress.com
+.wordpress.com
+
+# Logs
+*.log
+wp-content/debug.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.sublime-project
+.sublime-workspace
+*.sublime-settings
+
+# Node / NPM
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+build/
+
+# Composer (PHP dependency manager)
+vendor/
+composer.lock
+
+# OS
+Thumbs.db
+.DS_Store
+.directory
+
+# Project specific
+.cache/
+.tmp/
+temp/
+tmp/
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Local development
+local-config.php
+local-settings.php
+.local
+*.local
+
+# Sensitive files
+wp-config-local.php
+config.php
