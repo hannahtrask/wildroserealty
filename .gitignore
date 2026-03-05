@@ -4,10 +4,14 @@ wp-content/uploads/
 wp-content/backup-*
 wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
+
+# Plugins & Themes (ignore all, but keep custom ones)
 wp-content/plugins/*
 !wp-content/plugins/.gitkeep
-# wp-content/themes/*
-# !wp-content/themes/.gitkeep
+!wp-content/plugins/my-custom-plugin/
+wp-content/themes/*
+!wp-content/themes/.gitkeep
+!wp-content/themes/my-custom-theme/
 wp-content/mu-plugins/*
 !wp-content/mu-plugins/.gitkeep
 
@@ -74,3 +78,19 @@ local-settings.php
 # Sensitive files
 wp-config-local.php
 config.php
+
+# ==============================================================================
+# RESTORE INSTRUCTIONS
+# ==============================================================================
+# When restoring a site:
+# 1. Clone this repo
+# 2. Create missing directories: mkdir -p wp-content/uploads
+# 3. Download third-party plugins from production (wp-content/plugins/)
+# 4. Download third-party themes from production (wp-content/themes/)
+# 5. Import database backup
+# 6. Update wp-config.php with local database credentials
+#
+# CUSTOM PLUGINS/THEMES:
+# - Replace "my-custom-plugin" and "my-custom-theme" with your actual names
+# - These will be version controlled automatically
+# - Third-party plugins/themes are ignored (download separately)
