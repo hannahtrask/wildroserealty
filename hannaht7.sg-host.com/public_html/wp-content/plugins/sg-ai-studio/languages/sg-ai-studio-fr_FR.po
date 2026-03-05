@@ -1,0 +1,1453 @@
+# Translation file for SG AI Studio
+# Language: French
+msgid ""
+msgstr ""
+"Project-Id-Version: SG AI Studio\n"
+"POT-Creation-Date: 2025-12-08 13:26+0000\n"
+"PO-Revision-Date: 2025-12-15 09:12+0000\n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: sg-ai-studio\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"X-Loco-Version: 2.8.0; wp-6.8.3; php-8.2.29"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:30
+msgid "%(fromItem)d-%(toItem)d of %(totalItems)d"
+msgstr "%(fromItem)d-%(toItem)d de %(totalItems)d"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Core.php:305
+msgid "%d language pack(s) updated successfully."
+msgstr "%d paquets de langue mis à jour avec succès."
+
+#. number of stars.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Reports.php:545
+msgid "%d Star"
+msgstr "%d Étoile"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:685
+msgid "A category cannot be its own parent."
+msgstr "Une catégorie ne peut pas être sa propre catégorie parente."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:6
+msgid "A network error occurred. Please check your connection and try again."
+msgstr ""
+"Une erreur réseau s'est produite. Veuillez vérifier votre connexion et "
+"réessayer."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:35
+msgid "Activity"
+msgstr "Activité"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:29
+msgid "Activity Log"
+msgstr "Journal d'activité"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:63
+msgid "Add Token"
+msgstr "Ajouter un token"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:23
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:25
+msgid "Add tokens"
+msgstr "Ajouter des tokens"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:48
+msgid "Agent Settings"
+msgstr "Paramètres de l'agent"
+
+#: /chroot/plugins/sg-ai-studio/core/Gutenberg/Gutenberg.php:49
+msgid "AI STUDIO"
+msgstr "AI STUDIO"
+
+#. Name of the plugin
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:38
+msgid "AI Studio"
+msgstr "AI Studio"
+
+#. Page title.
+#: /chroot/plugins/sg-ai-studio/core/Admin/Admin.php:205
+#: /chroot/plugins/sg-ai-studio/core/Admin/Admin.php:206
+msgid "AI Studio Agent"
+msgstr "Agent IA Studio"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:45
+msgid "AI Studio Integration"
+msgstr "Intégration d'AI Studio"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Reports.php:372
+msgid "All Coupons"
+msgstr "Tous les coupons"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Reports.php:416
+msgid "All Customers"
+msgstr "Tous les clients"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Core.php:245
+msgid "All language packs are up to date."
+msgstr "Tous les paquets de langue sont à jour."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Reports.php:564
+msgid "All Reviews"
+msgstr "Tous les avis"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:60
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:72
+msgid "Are you sure you want to proceed?"
+msgstr "Êtes-vous sûr de vouloir continuer ?"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:4
+msgid "Ask me anything WordPress related and I'll help."
+msgstr ""
+"Posez-moi toutes vos questions concernant WordPress et je vous aiderai."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Auth.php:265
+#, fuzzy
+#| msgid "Authentication error:"
+msgid "Authentication error: "
+msgstr "Erreur d'authentification :"
+
+#: /chroot/plugins/sg-ai-studio/core/Helper/Helper.php:628
+#, php-format
+msgid "Authentication error: %s"
+msgstr "Erreur d'authentification : %s"
+
+#: /chroot/plugins/sg-ai-studio/core/Helper/Helper.php:316
+#: /chroot/plugins/sg-ai-studio/core/Rest/Auth.php:207
+msgid "Authentication initialized successfully."
+msgstr "Authentification initialisée avec succès."
+
+#: /chroot/plugins/sg-ai-studio/core/Helper/Helper.php:426
+msgid "Authentication keys refreshed successfully."
+msgstr "Les clés d'authentification ont été actualisées avec succès."
+
+#: /chroot/plugins/sg-ai-studio/core/Helper/Helper.php:594
+msgid "Authorization header missing."
+msgstr "En-tête d'autorisation manquant."
+
+#. %1$d is the number of comments created, %2$d is the number of errors.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:1065
+#, php-format
+msgid "Batch Comment Creation: %1$d created, %2$d errors"
+msgstr "Création groupée de commentaires : %1$d créés, %2$d erreurs"
+
+#. %1$d is the number of comments deleted, %2$d is the number of errors.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:1187
+#, php-format
+msgid "Batch Comment Deletion: %1$d deleted, %2$d errors"
+msgstr "Suppression groupée de commentaires : %1$d supprimés, %2$d erreurs"
+
+#. %1$d is the number of comments updated, %2$d is the number of errors.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:1131
+#, php-format
+msgid "Batch Comment Update: %1$d updated, %2$d errors"
+msgstr "Mise à jour groupée de commentaires : %1$d mis à jour, %2$d erreurs"
+
+#. %1$d is the number of media items moved to trash, %2$d is the number of errors.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:1377
+#, php-format
+msgid "Batch Media Moved to Trash: %1$d deleted, %2$d errors"
+msgstr ""
+"Fichiers multimédias déplacés dans la corbeille : %1$d supprimés, %2$d "
+"erreurs"
+
+#. %1$d is the number of media items deleted, %2$d is the number of errors.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:1374
+#, php-format
+msgid "Batch Media Permanently Deleted: %1$d deleted, %2$d errors"
+msgstr "Médias supprimés définitivement par lot : %1$d supprimés, %2$d erreurs"
+
+#. %1$d is the number of media items updated, %2$d is the number of errors.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:1308
+#, php-format
+msgid "Batch Media Update: %1$d updated, %2$d errors"
+msgstr "Mise à jour de médias par lot : %1$d mis à jour, %2$d erreurs"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Core.php:350
+msgid "Cache cleared successfully."
+msgstr "Cache vidé avec succès."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Core.php:344
+msgid "Cache Cleared: All caches have been cleared"
+msgstr "Cache vidé : Tous les caches ont été vidés."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:67
+msgid "cancel"
+msgstr "Annuler"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:1157
+msgid "Cannot delete an active plugin. Please deactivate it first."
+msgstr ""
+"Impossible de supprimer un plugin actif. Veuillez d'abord le désactiver."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:985
+msgid "Cannot delete the active theme."
+msgstr "Impossible de supprimer le thème actif."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:996
+msgid "Cannot delete the parent of the active theme."
+msgstr "Impossible de supprimer le thème parent du thème actif."
+
+#. %1$s is the category name, %2$d is the category ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:374
+#, php-format
+msgid "Category Created: %1$s (ID: %2$d)"
+msgstr "Catégorie créée : %1$s (ID : %2$d)"
+
+#. %1$s is the category name, %2$d is the category ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:531
+#, php-format
+msgid "Category Deleted: %1$s (ID: %2$d)"
+msgstr "Catégorie supprimée : %1$s (ID : %2$d)"
+
+#. %1$s is the category name, %2$d is the category ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:451
+#, php-format
+msgid "Category Updated: %1$s (ID: %2$d)"
+msgstr "Catégorie mise à jour : %1$s (ID : %2$d)"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:697
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:702
+msgid ""
+"Circular parent relationship detected. A category cannot be a descendant of "
+"itself."
+msgstr ""
+"Erreur de hiérarchie circulaire détectée. Une catégorie ne peut pas être sa "
+"propre sous-catégorie."
+
+#. %1$s is the post title, %2$d is the comment ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:644
+#, php-format
+msgid "Comment Created on: %1$s (Comment ID: %2$d)"
+msgstr "Commentaire créé sur : %1$s (ID du commentaire : %2$d)"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:624
+msgid "Comment creation failed."
+msgstr "Erreur lors de la création du commentaire."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:1102
+msgid "Comment ID is required for updating comments."
+msgstr ""
+"L'identifiant du commentaire est requis pour mettre à jour les commentaires."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:872
+msgid "Comment moderation failed."
+msgstr "Erreur lors de la modération du commentaire."
+
+#. %1$s is the post title, %2$d is the comment ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:775
+#, php-format
+msgid "Comment Moved to Trash from: %1$s (Comment ID: %2$d)"
+msgstr ""
+"Commentaire déplacé dans la corbeille depuis : %1$s (ID du commentaire : "
+"%2$d)"
+
+#. %1$s is the post title, %2$d is the comment ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:772
+#, php-format
+msgid "Comment Permanently Deleted from: %1$s (Comment ID: %2$d)"
+msgstr ""
+"Commentaire supprimé définitivement depuis : %1$s (ID du commentaire : %2$d)"
+
+#. %1$s is the new status, %2$s is the post title, %3$d is the comment ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:865
+#, php-format
+msgid "Comment Status Changed to %1$s on: %2$s (Comment ID: %3$d)"
+msgstr ""
+"Statut du commentaire modifié à %1$s le : %2$s (ID du commentaire : %3$d)"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:895
+#, php-format
+msgid "Comment status changed to %s."
+msgstr "Statut du commentaire modifié à %s."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:697
+msgid "Comment update failed."
+msgstr "Échec de la mise à jour du commentaire."
+
+#. %1$s is the post title, %2$d is the comment ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:717
+#, php-format
+msgid "Comment Updated on: %1$s (Comment ID: %2$d)"
+msgstr "Commentaire mis à jour sur : %1$s (ID du commentaire : %2$d)"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:611
+msgid "Comments are closed for this post."
+msgstr "Les commentaires sont désactivés pour cet article."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:62
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:47
+msgid "Connect"
+msgstr "Connecter"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:39
+msgid ""
+"Connect your WordPress site with the SiteGround AI Studio service. Chat with "
+"our AI agent to easily manage your WordPress site. Use the AI Studio text "
+"and image generative capabilities inside Gutenberg - experience the next-"
+"level editorial process."
+msgstr ""
+"Connectez votre site WordPress au service SiteGround AI Studio. Discutez "
+"avec notre agent IA pour gérer facilement votre site WordPress. Utilisez les "
+"fonctionnalités de génération de texte et d'images d'AI Studio directement "
+"dans Gutenberg et découvrez le processus de gestion de nouvelle génération."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:41
+msgid "Connected"
+msgstr "Connecté"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Settings_Page.php:216
+msgid "Connected status has been updated successfully."
+msgstr "Le statut de connexion a été mis à jour avec succès."
+
+#. %s is the error message.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Core.php:160
+#, php-format
+msgid "Core Update Failed: %s"
+msgstr "Échec de la mise à jour du core : %s"
+
+#. %s is the new WordPress version.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Core.php:177
+#, php-format
+msgid "Core Updated: WordPress updated to version %s"
+msgstr "Core mis à jour : WordPress a été mis à jour vers la version %s"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:571
+msgid "Could not determine file type."
+msgstr "Impossible de déterminer le type de fichier."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:837
+msgid "Could not download file from URL."
+msgstr "Impossible de télécharger le fichier depuis l'URL."
+
+#. %1$s is the coupon code, %2$d is the coupon ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Coupons.php:529
+#, php-format
+msgid "Coupon Created: %1$s (Coupon ID: %2$d)"
+msgstr "Coupon créé : %1$s (ID du coupon : %2$d)"
+
+#. %1$s is the coupon code, %2$d is the coupon ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Coupons.php:655
+#, php-format
+msgid "Coupon Deleted: %1$s (Coupon ID: %2$d)"
+msgstr "Coupon supprimé : %1$s (ID du coupon : %2$d)"
+
+#. %1$s is the coupon code, %2$d is the coupon ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Coupons.php:586
+#, php-format
+msgid "Coupon Updated: %1$s (Coupon ID: %2$d)"
+msgstr "Coupon mis à jour : %1$s (ID du coupon : %2$d)"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Auth.php:91
+msgid "Data parameter is required."
+msgstr "Le paramètre de données est obligatoire."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:37
+msgid "Date"
+msgstr "Date"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Gutenberg.php:285
+msgid "Description is required."
+msgstr "Une description est requise."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:36
+msgid "Details"
+msgstr "Détails"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:46
+msgid "Disconnect"
+msgstr "Déconnecter"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Settings_Page.php:312
+msgid "Disconnect completed with some errors during local cleanup."
+msgstr ""
+"La déconnexion s'est terminée avec quelques erreurs lors du nettoyage local."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Rest.php:563
+msgid "Disconnect completed with some errors."
+msgstr "La déconnexion s'est terminée avec quelques erreurs."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:71
+msgid "Disconnect from AI Studio"
+msgstr "Se déconnecter d'AI Studio"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Reports.php:473
+msgid "Draft"
+msgstr "Brouillon"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:26
+msgid "Drop Your Files Here To Upload"
+msgstr "Déposez vos fichiers ici pour les télécharger"
+
+#: /chroot/plugins/sg-ai-studio/core/Helper/Helper.php:298
+#: /chroot/plugins/sg-ai-studio/core/Helper/Helper.php:411
+msgid "Dynamic-keys API returned an error."
+msgstr "Les clés API dynamiques ont renvoyé une erreur."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:589
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:702
+msgid "Email address already exists."
+msgstr "Cette adresse email existe déjà."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:17
+msgid "Enable"
+msgstr "Activer"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:15
+msgid ""
+"Enable Power Mode to continue. Note: Power Mode may modify your site’s "
+"content or settings. Tap Learn more for details before enabling."
+msgstr ""
+"Activez le mode « Power » pour continuer. Veuillez noter que ce mode peut "
+"modifier le contenu ou les paramètres de votre site web. Appuyez sur « En "
+"savoir plus » pour plus de détails avant de l'activer."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:64
+msgid ""
+"Enable the connection to AI Studio by pasting your secret connection token."
+msgstr ""
+"Activez la connexion à l'AI Studio en saisissant votre token de connexion "
+"secret."
+
+#: /chroot/plugins/sg-ai-studio/core/Loader/Loader.php:188
+msgid "Every 29 Days"
+msgstr "Tous les 29 jours"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Auth.php:187
+msgid "Failed to connect to AI Studio API."
+msgstr "Échec de la connexion à l'API d'AI Studio."
+
+#: /chroot/plugins/sg-ai-studio/core/Helper/Helper.php:286
+#: /chroot/plugins/sg-ai-studio/core/Helper/Helper.php:400
+msgid "Failed to connect to dynamic-keys API."
+msgstr "Échec de la connexion aux clés API dynamiques."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Gutenberg.php:408
+msgid "Failed to delete the image."
+msgstr "Échec de la suppression de l’image."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Rest.php:671
+msgid "Failed to fetch ACL data."
+msgstr "Échec de la récupération des données ACL."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Rest.php:613
+msgid "Failed to fetch usage data."
+msgstr "Échec de la récupération des données d’utilisation."
+
+#: /chroot/plugins/sg-ai-studio/core/Helper/Helper.php:369
+msgid "Failed to generate authentication token for dynamic-keys API."
+msgstr ""
+"Échec de la génération du token d’authentification pour les clés API "
+"dynamiques."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Rest.php:382
+#: /chroot/plugins/sg-ai-studio/core/Rest/Rest.php:584
+#: /chroot/plugins/sg-ai-studio/core/Rest/Rest.php:642
+msgid "Failed to generate authentication token."
+msgstr "Échec de la génération du token d'authentification."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Settings_Page.php:225
+msgid "Failed to update connected status."
+msgstr "Échec de la mise à jour du statut de connexion."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Settings_Page.php:160
+#, fuzzy
+#| msgid "Failed to update Power Mode setting."
+msgid "Failed to update powermode setting."
+msgstr "Échec de la mise à jour du paramètre du mode « Power »."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Settings.php:400
+#, php-format
+msgid "Failed to update setting \"%s\"."
+msgstr "Échec de la mise à jour du paramètre « %s »."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:625
+msgid "File claims to be an image but is not a valid image format."
+msgstr "Le fichier semble être une image, mais son format n'est pas valide."
+
+#. %s: file extension
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:710
+#, php-format
+msgid ""
+"File contains forbidden extension \"%s\" in the filename. Executable files "
+"cannot be uploaded."
+msgstr ""
+"Le nom du fichier contient l'extension interdite « %s ». Les fichiers "
+"exécutables ne peuvent pas être téléversés."
+
+#. 1: file extension, 2: detected MIME type, 3: expected MIME types
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:614
+#, php-format
+msgid ""
+"File content mismatch. File with extension \"%1$s\" has content type "
+"\"%2$s\" but expected one of: %3$s"
+msgstr ""
+"Contenu du fichier incompatible. Le fichier avec l'extension « %1$s » a pour "
+"type de contenu « %2$s », alors que l’un des types suivants était attendu : "
+"« %3$s »."
+
+#. %s: file extension
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:605
+#, php-format
+msgid "File extension \"%s\" is not allowed."
+msgstr "L'extension de fichier « %s » n'est pas autorisée."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:11
+msgid "File has been deleted"
+msgstr "Le fichier a été supprimé."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:588
+msgid "File has no extension."
+msgstr "Le fichier n'a pas d'extension."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:27
+msgid "File Size up to: 20MB"
+msgstr "Taille maximale du fichier : 20 Mo"
+
+#. %s: detected MIME type
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:578
+#, php-format
+msgid "File type \"%s\" is not allowed by WordPress."
+msgstr "Le type de fichier « %s » n'est pas autorisé par WordPress."
+
+#. %s: file extension
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:699
+#, php-format
+msgid ""
+"File type \"%s\" is not allowed for security reasons. Executable files "
+"cannot be uploaded."
+msgstr ""
+"Le type de fichier « %s » n'est pas autorisé pour des raisons de sécurité. "
+"Les fichiers exécutables ne peuvent pas être téléversés."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:31
+msgid "Go to first page"
+msgstr "Accéder à la première page"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:34
+msgid "Go to last page"
+msgstr "Accéder à la dernière page"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:33
+msgid "Go to next page"
+msgstr "Passer à la page suivante"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:32
+msgid "Go to previous page"
+msgstr "Accéder à la page précédente"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:74
+msgid "Groups"
+msgstr "Groupes"
+
+#: /chroot/plugins/sg-ai-studio/core/Admin/Admin.php:151
+#| msgid ""
+#| "Hi! I am your WordPress AI Assistant. How can I help you manage your site "
+#| "today? **Here are a few suggestions:** - **Create a new blog post or "
+#| "page** with a title, contant and featured image - **Install a plugin** "
+#| "like Yoast SEO - **List all active plugins** and their versions on the "
+#| "site"
+msgid ""
+"Hi! I am your WordPress AI Assistant. How can I help you manage your site "
+"today?\n"
+"\n"
+"**Here are a few suggestions:**\n"
+"- **Create a new blog post or page** with a title, content and featured "
+"image\n"
+"- **Install a plugin** like Yoast SEO\n"
+"- **List all active plugins** and their versions on the site"
+msgstr ""
+"Bonjour ! Je suis votre assistant IA WordPress. Comment puis-je vous aider à "
+"gérer votre site aujourd'hui ? \n"
+"\n"
+"**Voici quelques suggestions :** \n"
+"- **Créer un nouvel article de blog ou une nouvelle page** avec un titre, un "
+"contenu et une image mise en avant \n"
+"- **Installer un plugin** comme Yoast SEO \n"
+"- **Lister tous les plugins actifs** et leurs versions sur le site"
+
+#: /chroot/plugins/sg-ai-studio/core/Admin/Admin.php:144
+#| msgid ""
+#| "Hi! I am your WordPress AI Assistant. How can I help you manage your "
+#| "store today? **Here are a few suggestions:** - **Create a new product** "
+#| "with a price, product image and description - **Summarize today's "
+#| "orders** to see your sales - **Generate a sales report** for this month"
+msgid ""
+"Hi! I am your WordPress AI Assistant. How can I help you manage your store "
+"today?\n"
+"\n"
+"**Here are a few suggestions:**\n"
+"- **Create a new product** with a price, product image and description\n"
+"- **Summarize today's orders** to see your sales\n"
+"- **Generate a sales report** for this month"
+msgstr ""
+"Bonjour ! Je suis votre assistant IA WordPress. Comment puis-je vous aider à "
+"gérer votre boutique aujourd'hui ?\n"
+"\n"
+"**Voici quelques suggestions :** \n"
+"- **Créer un nouveau produit** avec un prix, une image de produit et une "
+"description\n"
+"- **Résumer les commandes du jour** pour visualiser vos ventes\n"
+"- **Générer un rapport de ventes** pour ce mois-ci"
+
+#. URI of the plugin
+msgid "https://siteground.com"
+msgstr "https://siteground.com"
+
+#. Author URI of the plugin
+msgid "https://www.siteground.com"
+msgstr "https://www.siteground.com"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Gutenberg.php:417
+msgid "Image deleted successfully."
+msgstr "Image supprimée avec succès."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:10
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:12
+msgid "Image had been deleted"
+msgstr "L'image a été supprimée"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Gutenberg.php:382
+msgid "Image ID is required."
+msgstr "L'identifiant de l'image est requis."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:40
+msgid "Integration"
+msgstr "Intégration"
+
+#: /chroot/plugins/sg-ai-studio/core/Helper/Helper.php:603
+msgid "Invalid authorization header format."
+msgstr "Format d'en-tête d'autorisation invalide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:407
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:495
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:657
+msgid "Invalid category ID."
+msgstr "Identifiant de catégorie invalide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:680
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:754
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:833
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:1011
+msgid "Invalid comment ID."
+msgstr "Identifiant de commentaire invalide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:851
+msgid "Invalid comment status."
+msgstr "Statut de commentaire invalide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Coupons.php:575
+#: /chroot/plugins/sg-ai-studio/core/Rest/Coupons.php:632
+#: /chroot/plugins/sg-ai-studio/core/Rest/Coupons.php:742
+msgid "Invalid coupon ID."
+msgstr "Identifiant du coupon invalide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:758
+msgid "Invalid file data."
+msgstr "Données de fichier invalides."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Gutenberg.php:395
+msgid "Invalid image ID."
+msgstr "Identifiant d'image invalide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:968
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:1071
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:1246
+msgid "Invalid media ID."
+msgstr "Identifiant de média invalide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Orders.php:1343
+#: /chroot/plugins/sg-ai-studio/core/Rest/Orders.php:1400
+#: /chroot/plugins/sg-ai-studio/core/Rest/Orders.php:1566
+msgid "Invalid order ID."
+msgstr "Identifiant de commande invalide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Pages.php:685
+#: /chroot/plugins/sg-ai-studio/core/Rest/Pages.php:779
+#: /chroot/plugins/sg-ai-studio/core/Rest/Pages.php:921
+msgid "Invalid page ID."
+msgstr "Identifiant de page invalide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:344
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:710
+msgid "Invalid parent category ID."
+msgstr "Identifiant de catégorie parent invalide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:563
+msgid "Invalid per_page parameter. Must be at least 1."
+msgstr "Paramètre per_page invalide. Doit être au moins égal à 1."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:601
+#: /chroot/plugins/sg-ai-studio/core/Rest/Posts.php:714
+#: /chroot/plugins/sg-ai-studio/core/Rest/Posts.php:812
+#: /chroot/plugins/sg-ai-studio/core/Rest/Posts.php:968
+msgid "Invalid post ID."
+msgstr "Identifiant d'article invalide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Products.php:914
+#: /chroot/plugins/sg-ai-studio/core/Rest/Products.php:971
+#: /chroot/plugins/sg-ai-studio/core/Rest/Products.php:1131
+msgid "Invalid product ID."
+msgstr "Identifiant produit invalide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Rest.php:351
+msgid "Invalid security token"
+msgstr "Token de sécurité invalide"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Auth.php:78
+#: /chroot/plugins/sg-ai-studio/core/Rest/Auth.php:225
+#: /chroot/plugins/sg-ai-studio/core/Rest/Gutenberg.php:103
+msgid "Invalid security token."
+msgstr "Token de sécurité invalide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Auth.php:104
+#: /chroot/plugins/sg-ai-studio/core/Rest/Auth.php:117
+#: /chroot/plugins/sg-ai-studio/core/Rest/Auth.php:130
+msgid "Invalid token."
+msgstr "Token invalide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:677
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:791
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:927
+msgid "Invalid user ID."
+msgstr "Identifiant utilisateur invalide."
+
+#. %s is the error message.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Core.php:262
+#, php-format
+msgid "Language Pack Update Failed: %s"
+msgstr "Échec de la mise à jour du pack linguistique : %s"
+
+#. %d is the number of language packs updated.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Core.php:290
+msgid "Language Packs Updated: %d language pack(s) updated successfully"
+msgstr ""
+"Packs linguistiques mis à jour : %d pack(s) linguistique(s) mis à jour avec "
+"succès"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:14
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:16
+msgid "Learn more"
+msgstr "En savoir plus"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:50
+msgid "Learn More."
+msgstr "En savoir plus"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:57
+msgid "Leave Anyway"
+msgstr "Quitter quand même"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:59
+msgid ""
+"Leaving now will stop the response from finishing. You may lose the rest of "
+"the answer."
+msgstr ""
+"Si vous quittez la page maintenant, la réponse ne sera pas chargée "
+"complètement. Vous risquez de perdre le reste de la réponse."
+
+#. Description of the plugin
+msgid ""
+"Manage your WordPress site with AI - create content, install plugins, and "
+"perform site management tasks effortlessly."
+msgstr ""
+"Gérez votre site WordPress avec l'IA : créez du contenu, installez des "
+"plugins et effectuez des tâches de gestion de site sans effort."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:1279
+msgid "Media ID is required for updating media items."
+msgstr ""
+"Un identifiant de média est requis pour la mise à jour des éléments "
+"multimédias."
+
+#. %1$s is the media title, %2$d is the media ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:1100
+#, php-format
+msgid "Media Moved to Trash: %1$s (Media ID: %2$d)"
+msgstr "Média déplacé dans la corbeille : %1$s (ID du média : %2$d)"
+
+#. %1$s is the media title, %2$d is the media ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:1097
+#, php-format
+msgid "Media Permanently Deleted: %1$s (Media ID: %2$d)"
+msgstr "Média supprimé définitivement : %1$s (ID du média : %2$d)"
+
+#. %1$s is the media title, %2$d is the media ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:1025
+#, php-format
+msgid "Media Updated: %1$s (Media ID: %2$d)"
+msgstr "Média mis à jour : %1$s (ID du média : %2$d)"
+
+#. %1$s is the media title, %2$d is the media ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:932
+#, php-format
+msgid "Media Uploaded: %1$s (Media ID: %2$d)"
+msgstr "Média téléchargé : %1$s (ID du média : %2$d)"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Core.php:127
+msgid "No core updates available."
+msgstr "Aucune mise à jour majeure disponible."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:824
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:946
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:1130
+msgid "Not allowed"
+msgstr "Interdit"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:42
+msgid "Not Connected"
+msgstr "Non connecté"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:53
+msgid "Off"
+msgstr "Désactivé"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:52
+msgid "On"
+msgstr "Activé"
+
+#. %d is the order ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Orders.php:1298
+msgid "Order Created (Order ID: %d)"
+msgstr "Commande créée (ID de commande : %d)"
+
+#. %d is the order ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Orders.php:1426
+msgid "Order Moved to Trash (Order ID: %d)"
+msgstr "Commande déplacée dans la corbeille (ID de commande : %d)"
+
+#. %d is the order ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Orders.php:1423
+msgid "Order Permanently Deleted (Order ID: %d)"
+msgstr "Commande définitivement supprimée (ID de commande : %d)"
+
+#. %d is the order ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Orders.php:1354
+msgid "Order Updated (Order ID: %d)"
+msgstr "Commande mise à jour (ID de commande : %d)"
+
+#. %1$s is the page title, %2$d is the page ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Pages.php:652
+#, php-format
+msgid "Page Created: %1$s (ID: %2$d)"
+msgstr "Page créée : %1$s (ID : %2$d)"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Pages.php:1006
+msgid "Page ID is required for updating pages."
+msgstr "L'identifiant de la page est requis pour la mise à jour des pages."
+
+#. %1$s is the page title, %2$d is the page ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Pages.php:734
+#, php-format
+msgid "Page Updated: %1$s (ID: %2$d)"
+msgstr "Page mise à jour : %1$s (ID : %2$d)"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Reports.php:421
+msgid "Paying Customers"
+msgstr "Clients payants"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Reports.php:474
+msgid "Pending"
+msgstr "En attente"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:632
+msgid "Please provide either a plugin slug or a zip URL."
+msgstr "Veuillez fournir soit un slug de plugin, soit une URL zip."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:559
+msgid "Please provide either a theme slug or a zip URL."
+msgstr "Veuillez fournir soit un slug de thème, soit une URL zip."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:731
+msgid "Please provide either file data or a file URL."
+msgstr "Veuillez fournir soit les données du fichier, soit une URL de fichier."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:869
+msgid "Plugin activated successfully."
+msgstr "Plugin activé avec succès."
+
+#. %s is the plugin name.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:896
+#, php-format
+msgid "Plugin Activated: %s"
+msgstr "Plugin activé : %s"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:874
+msgid "Plugin deactivated successfully."
+msgstr "Plugin désactivé avec succès."
+
+#. %s is the plugin name.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:899
+#, php-format
+msgid "Plugin Deactivated: %s"
+msgstr "Plugin désactivé : %s"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:1208
+msgid "Plugin deleted successfully."
+msgstr "Plugin supprimé avec succès."
+
+#. %s is the plugin name.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:1194
+#, php-format
+msgid "Plugin Deleted: %s"
+msgstr "Plugin supprimé : %s"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:1180
+msgid "Plugin deletion failed."
+msgstr "Échec de la suppression du plugin."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:725
+msgid "Plugin installation failed."
+msgstr "Échec de l'installation du plugin."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:798
+msgid "Plugin installed successfully."
+msgstr "Plugin installé avec succès."
+
+#. %s is the plugin name.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:768
+#, php-format
+msgid "Plugin Installed: %s"
+msgstr "Plugin installé : %s"
+
+#. %s is the plugin name.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:765
+#, php-format
+msgid "Plugin Installed: %s (Activated)"
+msgstr "Plugin installé : %s (Activé)"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:850
+msgid "Plugin is already active."
+msgstr "Le plugin est déjà actif."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:858
+msgid "Plugin is already inactive."
+msgstr "Le plugin est déjà inactif."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:1023
+msgid "Plugin is already up to date."
+msgstr "Le plugin est déjà à jour."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:557
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:837
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:958
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:1143
+msgid "Plugin not found."
+msgstr "Plugin introuvable."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:877
+msgid "Plugin status not changed."
+msgstr "Le statut du plugin n'a pas changé."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:1033
+msgid "Plugin update failed."
+msgstr "Échec de la mise à jour du plugin."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:1095
+msgid "Plugin updated successfully."
+msgstr "Plugin mis à jour avec succès."
+
+#. %1$s is the plugin name, %2$s is the old version, %3$s is the new version.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:1061
+#, php-format
+msgid "Plugin Updated: %1$s (from version %2$s to %3$s)"
+msgstr "Plugin mis à jour : %1$s (de la version %2$s à %3$s)"
+
+#. %1$s is the post title, %2$d is the post ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Posts.php:681
+#, php-format
+msgid "Post Created: %1$s (ID: %2$d)"
+msgstr "Publicatiob créé : %1$s (ID : %2$d)"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Posts.php:1053
+msgid "Post ID is required for updating posts."
+msgstr ""
+"Un identifiant de publication est requis pour mettre à jour les publications."
+
+#. %1$s is the post title, %2$d is the post ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Posts.php:840
+#, php-format
+msgid "Post moved to trash: %1$s (ID: %2$d)"
+msgstr "Publication déplacé dans la corbeille : %1$s (ID : %2$d)"
+
+#. %1$s is the post title, %2$d is the post ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Posts.php:837
+#, php-format
+msgid "Post permanently deleted: %1$s (ID: %2$d)"
+msgstr "Publication supprimé définitivement : %1$s (ID : %2$d)"
+
+#. %1$s is the post title, %2$d is the post ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Posts.php:767
+#, php-format
+msgid "Post Updated: %1$s (ID: %2$d)"
+msgstr "Publication mise à jour : %1$s (ID : %2$d)"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:51
+msgid "Power Mode"
+msgstr "Mode « Power »"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:55
+msgid "Power Mode is disabled"
+msgstr "Le mode « Power » est désactivé."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:54
+msgid "Power Mode is enabled"
+msgstr "Le mode « Power » est activé."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:13
+msgid ""
+"Power Mode is on. Note: Power Mode may modify your site’s content or "
+"settings. Tap Learn more for details before proceeding."
+msgstr ""
+"Le mode « Power » est activé. Veuillez noter que ce mode peut modifier le "
+"contenu ou les paramètres de votre site web. Appuyez sur « En savoir plus » "
+"pour plus de détails avant de l'activer."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Settings.php:260
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:954
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:1115
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:1113
+#: /chroot/plugins/sg-ai-studio/core/Rest/Plugins.php:1337
+#: /chroot/plugins/sg-ai-studio/core/Rest/Coupons.php:506
+#: /chroot/plugins/sg-ai-studio/core/Rest/Coupons.php:562
+#: /chroot/plugins/sg-ai-studio/core/Rest/Coupons.php:619
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:565
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:664
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:777
+#: /chroot/plugins/sg-ai-studio/core/Rest/Products.php:902
+#: /chroot/plugins/sg-ai-studio/core/Rest/Products.php:958
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:482
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:1058
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:1341
+#: /chroot/plugins/sg-ai-studio/core/Rest/Core.php:101
+#: /chroot/plugins/sg-ai-studio/core/Rest/Core.php:213
+#: /chroot/plugins/sg-ai-studio/core/Rest/Core.php:329
+#: /chroot/plugins/sg-ai-studio/core/Rest/Posts.php:798
+#: /chroot/plugins/sg-ai-studio/core/Rest/Posts.php:1110
+#: /chroot/plugins/sg-ai-studio/core/Rest/Orders.php:1271
+#: /chroot/plugins/sg-ai-studio/core/Rest/Orders.php:1331
+#: /chroot/plugins/sg-ai-studio/core/Rest/Orders.php:1387
+#: /chroot/plugins/sg-ai-studio/core/Rest/Pages.php:765
+#: /chroot/plugins/sg-ai-studio/core/Rest/Pages.php:1063
+#, fuzzy
+#| msgid "Power Mode is disabled. This operation is not allowed."
+msgid "Powermode is disabled. This operation is not allowed."
+msgstr "Le mode « Power » est désactivé. Cette opération n'est pas autorisée."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Reports.php:475
+msgid "Private"
+msgstr "Privé"
+
+#. %1$s is the product name, %2$d is the product ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Products.php:869
+#, php-format
+msgid "Product Created: %1$s (Product ID: %2$d)"
+msgstr "Produit créé : %1$s (ID produit : %2$d)"
+
+#. %1$s is the product name, %2$d is the product ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Products.php:1003
+#, php-format
+msgid "Product Moved to Trash: %1$s (Product ID: %2$d)"
+msgstr "Produit déplacé dans la corbeille : %1$s (ID du produit : %2$d)"
+
+#. %1$s is the product name, %2$d is the product ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Products.php:1000
+#, php-format
+msgid "Product Permanently Deleted: %1$s (Product ID: %2$d)"
+msgstr "Produit définitivement supprimé : %1$s (ID produit : %2$d)"
+
+#. %1$s is the product name, %2$d is the product ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Products.php:925
+#, php-format
+msgid "Product Updated: %1$s (Product ID: %2$d)"
+msgstr "Produit mis à jour : %1$s (ID produit : %2$d)"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Rest.php:364
+msgid "Prompt cannot be empty"
+msgstr "Le prompt ne peut pas être vide."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Gutenberg.php:234
+#: /chroot/plugins/sg-ai-studio/core/Rest/Gutenberg.php:335
+msgid "Prompt is required."
+msgstr "Le prompt est requis."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Reports.php:472
+msgid "Published"
+msgstr "Publié"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:58
+msgid "Response still in progress"
+msgstr "Réponse en cours"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:7
+msgid "Retry"
+msgstr "Réessayer"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:68
+msgid "save"
+msgstr "sauvegarder"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:65
+msgid "Secret Connection Token"
+msgstr "Token de connexion secrète"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:73
+msgid "Select or search groups"
+msgstr "Sélectionner ou rechercher des groupes"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:75
+msgid "Selected Groups"
+msgstr "Groupes sélectionnés"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Auth.php:273
+#, fuzzy
+#| msgid "Server error:"
+msgid "Server error: "
+msgstr "Erreur serveur :"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Settings.php:384
+#, php-format
+msgid "Setting \"%s\" has been updated successfully."
+msgstr "Le paramètre « %s » a été mis à jour avec succès."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Settings.php:345
+#, php-format
+msgid "Setting \"%s\" is not allowed to be updated via this endpoint."
+msgstr ""
+"Le paramètre « %s » ne peut pas être mis à jour depuis ce point d’accès."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Settings.php:274
+msgid "Setting name cannot be empty."
+msgstr "Le nom du paramètre ne peut pas être vide."
+
+#. %1$s is the setting name, %2$s is the old value, %3$s is the new value.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Settings.php:369
+#, php-format
+msgid "Setting Updated: %1$s (from \"%2$s\" to \"%3$s\")"
+msgstr "Paramètre mis à jour : %1$s (de « %2$s » à « %3$s »)"
+
+#. Author of the plugin
+msgid "SiteGround"
+msgstr "SiteGround"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:5
+msgid "SiteGround AI Studio"
+msgstr "SiteGround AI Studio"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:61
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:69
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:70
+msgid "Something went wrong. Please try again later."
+msgstr "Une erreur s'est produite. Veuillez réessayer plus tard."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:56
+msgid "Something went wrong. Please try again."
+msgstr "Une erreur s'est produite. Veuillez réessayer."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Activity_Log.php:70
+msgid "Sorry, you are not allowed to access activity logs."
+msgstr "Désolé, vous n'êtes pas autorisé à accéder aux journaux d'activité."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Settings_Page.php:296
+#: /chroot/plugins/sg-ai-studio/core/Rest/Rest.php:555
+msgid "Successfully disconnected and cleaned up all SG AI Studio data."
+msgstr ""
+"Déconnexion réussie et toutes les données SG AI Studio ont été supprimées."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:49
+msgid ""
+"Supercharge AI Studio with Power Mode. Enable it to go beyond simple answers "
+"by executing complex, multi-step tasks and utilizing a broader set of "
+"capabilities and skills."
+msgstr ""
+"Optimisez AI Studio grâce au mode « Power ». Permettez-lui d'aller au-delà "
+"des simples réponses en exécutant des tâches complexes en plusieurs étapes "
+"et en exploitant un ensemble plus large de capacités et de compétences."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:28
+#, fuzzy
+#| msgid "Supported Formats:"
+msgid "Supported Formats: "
+msgstr "Formats pris en charge :"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:523
+msgid "The category could not be deleted."
+msgstr "La catégorie n'a pas pu être supprimée."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:544
+msgid "The category has been permanently deleted."
+msgstr "Cette catégorie a été supprimée définitivement."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:783
+msgid "The comment could not be deleted."
+msgstr "Le commentaire n'a pas pu être supprimé."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:810
+msgid "The comment has been moved to the trash."
+msgstr "Le commentaire a été déplacé dans la corbeille."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Comments.php:801
+msgid "The comment has been permanently deleted."
+msgstr "Le commentaire a été supprimé définitivement."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Coupons.php:646
+msgid "The coupon could not be deleted."
+msgstr "Le coupon n'a pas pu être supprimé."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Coupons.php:668
+msgid "The coupon has been permanently deleted."
+msgstr "Le coupon a été supprimé définitivement."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Categories.php:507
+msgid ""
+"The default category cannot be deleted. Please set a different default "
+"category first."
+msgstr ""
+"La catégorie par défaut ne peut pas être supprimée. Veuillez d'abord définir "
+"une autre catégorie par défaut."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:1087
+msgid "The media item could not be deleted."
+msgstr "L'élément média n'a pas pu être supprimé."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:1124
+msgid "The media item has been moved to the trash."
+msgstr "L'élément média a été déplacé dans la corbeille."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Media.php:1115
+msgid "The media item has been permanently deleted."
+msgstr "L'élément média a été supprimé définitivement."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Orders.php:1414
+msgid "The order could not be deleted."
+msgstr "La commande n'a pas pu être supprimée."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Orders.php:1450
+msgid "The order has been moved to the trash."
+msgstr "La commande a été déplacée dans la corbeille."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Orders.php:1441
+msgid "The order has been permanently deleted."
+msgstr "La commande a été définitivement supprimée."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Pages.php:795
+msgid "The page could not be deleted."
+msgstr "La page n'a pas pu être supprimée."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Pages.php:822
+msgid "The page has been moved to the trash."
+msgstr "La page a été déplacée dans la corbeille."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Pages.php:813
+msgid "The page has been permanently deleted."
+msgstr "La page a été définitivement supprimée."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Posts.php:828
+msgid "The post could not be deleted."
+msgstr "L'article n'a pas pu être supprimée."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Posts.php:864
+msgid "The post has been moved to the trash."
+msgstr "L'article a été déplacée dans la corbeille."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Posts.php:855
+msgid "The post has been permanently deleted."
+msgstr "L'article a été supprimée définitivement."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Products.php:990
+msgid "The product could not be deleted."
+msgstr "Le produit n'a pas pu être supprimé."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Products.php:1026
+msgid "The product has been moved to the trash."
+msgstr "Le produit a été déplacé dans la corbeille."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Products.php:1017
+msgid "The product has been permanently deleted."
+msgstr "Le produit a été définitivement supprimé."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:812
+msgid "The user could not be deleted."
+msgstr "L'utilisateur n'a pas pu être supprimé."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:834
+msgid "The user has been deleted."
+msgstr "L'utilisateur a été supprimé."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:790
+msgid "Theme activated successfully."
+msgstr "Thème activé avec succès."
+
+#. %s is the theme name.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:764
+#, php-format
+msgid "Theme Activated: %s"
+msgstr "Thème activé : %s"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:1045
+msgid "Theme deleted successfully."
+msgstr "Thème supprimé avec succès."
+
+#. %s is the theme name.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:1031
+#, php-format
+msgid "Theme Deleted: %s"
+msgstr "Thème supprimé : %s"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:1023
+msgid "Theme deletion failed."
+msgstr "Échec de la suppression du thème."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:661
+msgid ""
+"Theme installation completed, but theme information could not be retrieved."
+msgstr ""
+"L'installation du thème terminée, mais les informations du thème n'ont pas "
+"pu être récupérées."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:649
+msgid "Theme installation failed."
+msgstr "Échec de l'installation du thème."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:717
+msgid "Theme installed successfully."
+msgstr "Thème installé avec succès."
+
+#. %s is the theme name.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:683
+#, php-format
+msgid "Theme Installed: %s"
+msgstr "Thème installé : %s"
+
+#. %s is the theme name.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:680
+#, php-format
+msgid "Theme Installed: %s (Activated)"
+msgstr "Thème installé : %s (Activé)"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:750
+msgid "Theme is already active."
+msgstr "Le thème est déjà actif."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:876
+msgid "Theme is already up to date."
+msgstr "Le thème est déjà à jour."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:478
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:738
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:811
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:966
+msgid "Theme not found."
+msgstr "Thème introuvable."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:886
+msgid "Theme update failed."
+msgstr "Échec de la mise à jour du thème."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:936
+msgid "Theme updated successfully."
+msgstr "Thème mis à jour avec succès."
+
+#. %1$s is the theme name, %2$s is the old version, %3$s is the new version.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Themes.php:905
+#, php-format
+msgid "Theme Updated: %1$s (from version %2$s to %3$s)"
+msgstr "Thème mis à jour : %1$s (de la version %2$s à %3$s)"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:66
+msgid "Token can not be empty."
+msgstr "Le token ne peut pas être vide."
+
+#: /chroot/plugins/sg-ai-studio/core/Helper/Helper.php:622
+#, php-format
+msgid "Token validation failed: %s"
+msgstr "Échec de la validation du token : %s"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Auth.php:282
+#, fuzzy
+#| msgid "Unexpected error:"
+msgid "Unexpected error: "
+msgstr "Erreur inattendue :"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:19
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:21
+msgid "Upgrade to Plus"
+msgstr "Passer au plan Plus"
+
+#. %1$s is the username, %2$d is the user ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:629
+#, php-format
+msgid "User Created: %1$s (ID: %2$d)"
+msgstr "Utilisateur créé : %1$s (ID : %2$d)"
+
+#. %1$s is the username, %2$d is the user ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:820
+#, php-format
+msgid "User Deleted: %1$s (ID: %2$d)"
+msgstr "Utilisateur supprimé : %1$s (ID : %2$d)"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:1012
+msgid "User ID is required for updating users."
+msgstr ""
+"Un identifiant utilisateur est requis pour la mise à jour des utilisateurs."
+
+#. %1$s is the username, %2$d is the user ID.
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:742
+#, php-format
+msgid "User Updated: %1$s (ID: %2$d)"
+msgstr "Utilisateur mis à jour : %1$s (ID : %2$d)"
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:8
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:9
+msgid "User uploaded image"
+msgstr "Image téléchargée par l'utilisateur"
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:579
+#: /chroot/plugins/sg-ai-studio/core/Rest/Users.php:692
+msgid "Username already exists."
+msgstr "Le nom d'utilisateur existe déjà."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Core.php:140
+msgid "WordPress core is already up to date."
+msgstr "Le Core de WordPress est déjà à jour."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Core.php:192
+msgid "WordPress core updated successfully."
+msgstr "Le Core de WordPress a été mis à jour avec succès."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Gutenberg.php:111
+msgid "You do not have permission to edit content."
+msgstr "Vous n'êtes pas autorisé à modifier le contenu."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:20
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:24
+msgid "You've run out of tokens."
+msgstr "Vous n'avez plus de tokens."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:43
+msgid "Your plugin is connected to your SiteGround AI Studio service."
+msgstr "Votre plugin est connecté à votre service SiteGround AI Studio."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:44
+msgid "Your plugin is not linked to your SiteGround AI Studio service."
+msgstr "Votre plugin n'est pas lié à votre service SiteGround AI Studio."
+
+#: /chroot/plugins/sg-ai-studio/core/Rest/Settings_Page.php:134
+msgid "Your site is not connected."
+msgstr "Votre site n'est pas connecté."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:22
+msgid "You’re almost out of tokens."
+msgstr "Vous n'avez presque plus de tokens."
+
+#: /chroot/plugins/sg-ai-studio/assets/react-strings.php:18
+msgid "You’re running low on tokens."
+msgstr "Vos tokens diminuent."

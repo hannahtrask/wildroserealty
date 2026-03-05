@@ -6,8 +6,8 @@ wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
 wp-content/plugins/*
 !wp-content/plugins/.gitkeep
-wp-content/themes/*
-!wp-content/themes/.gitkeep
+# wp-content/themes/*
+# !wp-content/themes/.gitkeep
 wp-content/mu-plugins/*
 !wp-content/mu-plugins/.gitkeep
 

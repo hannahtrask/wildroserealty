@@ -1,0 +1,846 @@
+# Translation file for SG AI Studio
+# Language: Spanish
+msgid ""
+msgstr ""
+"Project-Id-Version: SG AI Studio\n"
+"POT-Creation-Date: 2025-12-08 13:26+0000\n"
+"PO-Revision-Date: 2025-12-08 13:26+0000\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: CSV to PO Converter\n"
+"X-Domain: sg-ai-studio\n"
+
+msgid "%(fromItem)d-%(toItem)d of %(totalItems)d"
+msgstr "%(fromItem)d-%(toItem)d de %(totalItems)d"
+
+msgid "%d language pack(s) updated successfully."
+msgstr "%d paquete(s) de idioma actualizado(s) correctamente."
+
+msgid "%d Star"
+msgstr "%d estrellas"
+
+msgid "- **Generate a sales report** for this month"
+msgstr "- **Generar un informe de ventas** para este mes"
+
+msgid "- **List all active plugins** and their versions on the site"
+msgstr "- **Enumera todos los plugins activos** y sus versiones en el sitio web"
+
+msgid "A category cannot be its own parent."
+msgstr "Una categoría no puede ser su propia categoría parent."
+
+msgid "A network error occurred. Please check your connection and try again."
+msgstr "Se ha producido un error de red. Comprueba tu conexión e inténtalo de nuevo."
+
+msgid "Activity"
+msgstr "Actividad"
+
+msgid "Activity Log"
+msgstr "Registro de actividad"
+
+msgid "Add Token"
+msgstr "Añadir token"
+
+msgid "Add tokens"
+msgstr "Añadir tokens"
+
+msgid "Agent Settings"
+msgstr "Ajustes del agente"
+
+msgid "AI STUDIO"
+msgstr "AI STUDIO"
+
+msgid "AI Studio"
+msgstr "AI Studio"
+
+msgid "AI Studio Agent"
+msgstr "Agente de AI Studio"
+
+msgid "AI Studio Integration"
+msgstr "Integración de AI Studio"
+
+msgid "All Coupons"
+msgstr "Todos los cupones"
+
+msgid "All Customers"
+msgstr "Todos los clientes"
+
+msgid "All language packs are up to date."
+msgstr "Todos los paquetes de idiomas están actualizados."
+
+msgid "All Reviews"
+msgstr "Todas las reseñas"
+
+msgid "Are you sure you want to proceed?"
+msgstr "¿Seguro que quieres continuar?"
+
+msgid "Ask me anything WordPress related and I'll help."
+msgstr "Pregúntame cualquier cosa relacionada con WordPress y te ayudaré."
+
+msgid "Authentication error:"
+msgstr "Error de autenticación:"
+
+msgid "Authentication error: %s"
+msgstr "Error de autenticación: %s"
+
+msgid "Authentication initialized successfully."
+msgstr "Autenticación inicializada correctamente."
+
+msgid "Authentication keys refreshed successfully."
+msgstr "Las claves de autenticación se actualizaron correctamente."
+
+msgid "Authorization header missing."
+msgstr "Falta el encabezado de autorización."
+
+msgid "Cache cleared successfully."
+msgstr "La caché se ha borrado correctamente."
+
+msgid "cancel"
+msgstr "cancelar"
+
+msgid "Cannot delete an active plugin. Please deactivate it first."
+msgstr "No se puede eliminar un plugin activo. Por favor, desactívalo primero."
+
+msgid "Cannot delete the active theme."
+msgstr "No se puede eliminar el tema activo."
+
+msgid "Cannot delete the parent of the active theme."
+msgstr "No se puede eliminar el tema parent del tema activo."
+
+msgid "Circular parent relationship detected. A category cannot be a descendant of itself."
+msgstr "Se ha detectado una relación circular entre los temas parent. Una categoría no puede ser descendiente de sí misma."
+
+msgid "Comment creation failed."
+msgstr "Error al crear el comentario."
+
+msgid "Comment ID is required for updating comments."
+msgstr "Se requiere el ID del comentario para actualizar los comentarios."
+
+msgid "Comment moderation failed."
+msgstr "Error al moderar el comentario."
+
+msgid "Comment status changed to %s."
+msgstr "El estado del comentario cambió a %s."
+
+msgid "Comment update failed."
+msgstr "Error al actualizar el comentario."
+
+msgid "Comments are closed for this post."
+msgstr "Los comentarios están cerrados para esta publicación."
+
+msgid "Confirm"
+msgstr "Confirmar"
+
+msgid "Connect"
+msgstr "Conectar"
+
+msgid "Connect your WordPress site with the SiteGround AI Studio service. Chat with our AI agent to easily manage your WordPress site. Use the AI Studio text and image generative capabilities inside Gutenberg - experience the next-level editorial process."
+msgstr "Conecta tu sitio WordPress con el servicio SiteGround AI Studio. Chatea con nuestro agente de IA para gestionar fácilmente tu sitio WordPress. Utiliza las capacidades de generación de texto e imagen de AI Studio dentro de Gutenberg y experimenta un proceso editorial de última generación."
+
+msgid "Connected"
+msgstr "Conectado"
+
+msgid "Connected status has been updated successfully."
+msgstr "El estado de conexión se ha actualizado correctamente."
+
+msgid "Could not determine file type."
+msgstr "No se pudo determinar el tipo de archivo."
+
+msgid "Could not download file from URL."
+msgstr "No se pudo descargar el archivo desde la URL."
+
+msgid "Data parameter is required."
+msgstr "Se requiere un parámetro de datos."
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Description is required."
+msgstr "Se requiere una descripción."
+
+msgid "Details"
+msgstr "Detalles"
+
+msgid "Disconnect"
+msgstr "Desconectar"
+
+msgid "Disconnect completed with some errors during local cleanup."
+msgstr "La desconexión se completó con algunos errores durante la limpieza local."
+
+msgid "Disconnect completed with some errors."
+msgstr "La desconexión se completó con algunos errores."
+
+msgid "Disconnect from AI Studio"
+msgstr "Desconéctate de AI Studio"
+
+msgid "Draft"
+msgstr "Borrador"
+
+msgid "Drop Your Files Here To Upload"
+msgstr "Arrastra tus archivos aquí para subirlos."
+
+msgid "Dynamic-keys API returned an error."
+msgstr "La API de claves dinámicas devolvió un error."
+
+msgid "Email address already exists."
+msgstr "La dirección de correo electrónico ya existe."
+
+msgid "Enable"
+msgstr "Activar"
+
+msgid "Enable Power Mode to continue. Note: Power Mode may modify your site’s content or settings. Tap Learn more for details before enabling."
+msgstr "Activa el modo Power para continuar. Nota: El modo Power puede modificar el contenido o la configuración de tu sitio. Pulsa «Más información» para obtener detalles antes de activarlo."
+
+msgid "Enable the connection to AI Studio by pasting your secret connection token."
+msgstr "Activa la conexión con AI Studio pegando tu token de conexión secreto."
+
+msgid "Every 29 Days"
+msgstr "Cada 29 días"
+
+msgid "Failed to connect to AI Studio API."
+msgstr "Error al conectar con la API de AI Studio."
+
+msgid "Failed to connect to dynamic-keys API."
+msgstr "Error al conectar con la API de claves dinámicas."
+
+msgid "Failed to delete the image."
+msgstr "Error al eliminar la imagen."
+
+msgid "Failed to fetch ACL data."
+msgstr "Error al obtener los datos de la ACL."
+
+msgid "Failed to fetch usage data."
+msgstr "Error al obtener los datos de uso."
+
+msgid "Failed to generate authentication token for dynamic-keys API."
+msgstr "Error al generar el token de autenticación para la API de claves dinámicas."
+
+msgid "Failed to generate authentication token."
+msgstr "Error al generar el token de autenticación."
+
+msgid "Failed to update connected status."
+msgstr "Error al actualizar el estado de conexión."
+
+msgid "Failed to update Power Mode setting."
+msgstr "Error al actualizar la configuración del modo Power."
+
+msgid "Failed to update setting \"%s\"."
+msgstr "Error al actualizar la configuración \"%s\"."
+
+msgid "File claims to be an image but is not a valid image format."
+msgstr "El archivo indica ser una imagen, pero no tiene un formato de imagen válido."
+
+msgid "File contains forbidden extension \"%s\" in the filename. Executable files cannot be uploaded."
+msgstr "El nombre del archivo contiene la extensión prohibida \"%s\". No se pueden subir archivos ejecutables."
+
+msgid "File content mismatch. File with extension \"%1$s\" has content type \"%2$s\" but expected one of: %3$s"
+msgstr "El contenido del archivo no coincide. El archivo con extensión \"%1$s\" tiene el tipo de contenido \"%2$s\", pero se esperaba uno de los siguientes: %3$s"
+
+msgid "File extension \"%s\" is not allowed."
+msgstr "La extensión de archivo \"%s\" no está permitida."
+
+msgid "File has been deleted"
+msgstr "El archivo ha sido eliminado"
+
+msgid "File has no extension."
+msgstr "El archivo no tiene extensión."
+
+msgid "File Size up to: 20MB"
+msgstr "Tamaño máximo del archivo: 20 MB"
+
+msgid "File type \"%s\" is not allowed by WordPress."
+msgstr "WordPress no permite el tipo de archivo \"%s\"."
+
+msgid "File type \"%s\" is not allowed for security reasons. Executable files cannot be uploaded."
+msgstr "El tipo de archivo \"%s\" no está permitido por motivos de seguridad. No se pueden subir archivos ejecutables."
+
+msgid "Go to first page"
+msgstr "Ir a la primera página"
+
+msgid "Go to last page"
+msgstr "Ir a la última página"
+
+msgid "Go to next page"
+msgstr "Ir a la página siguiente"
+
+msgid "Go to previous page"
+msgstr "Ir a la página anterior"
+
+msgid "Groups"
+msgstr "Grupos"
+
+msgid "https://siteground.com"
+msgstr "https://siteground.com"
+
+msgid "https://www.siteground.com"
+msgstr "https://www.siteground.com"
+
+msgid "Image deleted successfully."
+msgstr "Imagen eliminada correctamente."
+
+msgid "Image had been deleted"
+msgstr "La imagen había sido eliminada."
+
+msgid "Image ID is required."
+msgstr "Se requiere el ID de la imagen."
+
+msgid "Integration"
+msgstr "Integración"
+
+msgid "Invalid authorization header format."
+msgstr "Formato de encabezado de autorización no válido."
+
+msgid "Invalid category ID."
+msgstr "ID de categoría no válido."
+
+msgid "Invalid comment ID."
+msgstr "ID de comentario no válido."
+
+msgid "Invalid comment status."
+msgstr "Estado del comentario no válido."
+
+msgid "Invalid coupon ID."
+msgstr "ID de cupón no válido."
+
+msgid "Invalid file data."
+msgstr "Datos de archivo no válidos."
+
+msgid "Invalid image ID."
+msgstr "ID de imagen no válido."
+
+msgid "Invalid media ID."
+msgstr "ID de medio no válido."
+
+msgid "Invalid order ID."
+msgstr "ID de pedido no válido."
+
+msgid "Invalid page ID."
+msgstr "ID de página no válido."
+
+msgid "Invalid parent category ID."
+msgstr "ID de categoría principal no válido."
+
+msgid "Invalid per_page parameter. Must be at least 1."
+msgstr "Parámetro per_page no válido. Debe ser al menos 1."
+
+msgid "Invalid post ID."
+msgstr "ID de publicación no válido."
+
+msgid "Invalid product ID."
+msgstr "ID de producto no válido."
+
+msgid "Invalid security token"
+msgstr "Token de seguridad no válido"
+
+msgid "Invalid security token."
+msgstr "Token de seguridad no válido."
+
+msgid "Invalid token."
+msgstr "Token no válido."
+
+msgid "Invalid user ID."
+msgstr "ID de usuario no válido."
+
+msgid "Learn more"
+msgstr "Más información"
+
+msgid "Learn More."
+msgstr "Más información."
+
+msgid "Leave Anyway"
+msgstr "Salir de todos modos"
+
+msgid "Leaving now will stop the response from finishing. You may lose the rest of the answer."
+msgstr "Si sales ahora, la respuesta no se completará. Podrías perder el resto de la respuesta."
+
+msgid "Manage your WordPress site with AI - create content, install plugins, and perform site management tasks effortlessly."
+msgstr "Gestiona tu sitio WordPress con IA: crea contenido, instala plugins y gestiona el sitio fácilmente."
+
+msgid "Media ID is required for updating media items."
+msgstr "Se requiere el ID del medio para actualizar los elementos multimedia."
+
+msgid "No core updates available."
+msgstr "No hay actualizaciones principales disponibles."
+
+msgid "Not allowed"
+msgstr "No permitido"
+
+msgid "Not Connected"
+msgstr "No conectado"
+
+msgid "Off"
+msgstr "Apagado"
+
+msgid "On"
+msgstr "Encendido"
+
+msgid "Page ID is required for updating pages."
+msgstr "Se requiere el ID de la página para actualizar las páginas."
+
+msgid "Paying Customers"
+msgstr "Clientes de pago"
+
+msgid "Pending"
+msgstr "Pendiente"
+
+msgid "Please provide either a plugin slug or a zip URL."
+msgstr "Por favor, proporciona el slug del plugin o la URL del archivo zip."
+
+msgid "Please provide either a theme slug or a zip URL."
+msgstr "Por favor, proporciona el slug del tema o la URL del archivo zip."
+
+msgid "Please provide either file data or a file URL."
+msgstr "Por favor, proporciona los datos del archivo o la URL del archivo."
+
+msgid "Plugin activated successfully."
+msgstr "Plugin activado correctamente."
+
+msgid "Plugin deactivated successfully."
+msgstr "Plugin desactivado correctamente."
+
+msgid "Plugin deleted successfully."
+msgstr "Plugin eliminado correctamente."
+
+msgid "Plugin deletion failed."
+msgstr "Error al eliminar el plugin."
+
+msgid "Plugin installation failed."
+msgstr "Error al instalar el plugin."
+
+msgid "Plugin installed successfully."
+msgstr "Plugin instalado correctamente."
+
+msgid "Plugin is already active."
+msgstr "El plugin ya está activo."
+
+msgid "Plugin is already inactive."
+msgstr "El plugin ya está inactivo."
+
+msgid "Plugin is already up to date."
+msgstr "El plugin ya está actualizado."
+
+msgid "Plugin not found."
+msgstr "Plugin no encontrado."
+
+msgid "Plugin status not changed."
+msgstr "El estado del plugin no ha cambiado."
+
+msgid "Plugin update failed."
+msgstr "Error al actualizar el plugin."
+
+msgid "Plugin updated successfully."
+msgstr "Plugin actualizado correctamente."
+
+msgid "Post ID is required for updating posts."
+msgstr "Se requiere el ID de la publicación para actualizar las publicaciones."
+
+msgid "Power Mode is on. Note: Power Mode may modify your site’s content or settings. Tap Learn more for details before proceeding."
+msgstr "El modo Power está activado. Nota: Este modo podría modificar el contenido o la configuración del sitio. Pulsa «Más información» para obtener detalles antes de continuar."
+
+msgid "Power Mode"
+msgstr "Modo Power"
+
+msgid "Power Mode is disabled"
+msgstr "El modo Power está desactivado."
+
+msgid "Power Mode is enabled"
+msgstr "El modo Power está activado."
+
+msgid "Power Mode is disabled. This operation is not allowed."
+msgstr "El modo Power está desactivado. Esta operación no está permitida."
+
+msgid "Private"
+msgstr "Privado"
+
+msgid "Prompt cannot be empty"
+msgstr "El prompt no puede estar vacío"
+
+msgid "Prompt is required."
+msgstr "El prompt es obligatorio."
+
+msgid "Published"
+msgstr "Publicado"
+
+msgid "Response still in progress"
+msgstr "La respuesta sigue en curso"
+
+msgid "Retry"
+msgstr "Reintentar"
+
+msgid "save"
+msgstr "guardar"
+
+msgid "Secret Connection Token"
+msgstr "Token de conexión secreta"
+
+msgid "Select or search groups"
+msgstr "Seleccionar o buscar grupos"
+
+msgid "Selected Groups"
+msgstr "Grupos seleccionados"
+
+msgid "Server error:"
+msgstr "Error del servidor:"
+
+msgid "Setting \"%s\" has been updated successfully."
+msgstr "La configuración \"%s\" se ha actualizado correctamente."
+
+msgid "Setting \"%s\" is not allowed to be updated via this endpoint."
+msgstr "La configuración \"%s\" no se puede actualizar a través de este punto de conexión."
+
+msgid "Setting name cannot be empty."
+msgstr "El nombre de la configuración no puede estar vacío."
+
+msgid "SiteGround"
+msgstr "SiteGround"
+
+msgid "SiteGround AI Studio"
+msgstr "SiteGround AI Studio"
+
+msgid "Something went wrong. Please try again later."
+msgstr "Algo salió mal. Por favor, inténtalo de nuevo más tarde."
+
+msgid "Something went wrong. Please try again."
+msgstr "Algo salió mal. Por favor, inténtalo de nuevo."
+
+msgid "Sorry, you are not allowed to access activity logs."
+msgstr "Lo sentimos, no tienes permiso para acceder a los registros de actividad."
+
+msgid "Successfully disconnected and cleaned up all SG AI Studio data."
+msgstr "Se desconectaron y eliminaron correctamente todos los datos de SG AI Studio."
+
+msgid "Supercharge AI Studio with Power Mode. Enable it to go beyond simple answers by executing complex, multi-step tasks and utilizing a broader set of capabilities and skills."
+msgstr "Potencia AI Studio con el Modo Power. Habilítalo para que vaya más allá de las respuestas simples ejecutando tareas complejas de varios pasos y utilizando un conjunto más amplio de capacidades y habilidades."
+
+msgid "Supported Formats:"
+msgstr "Formatos compatibles:"
+
+msgid "The category could not be deleted."
+msgstr "No se pudo eliminar la categoría."
+
+msgid "The category has been permanently deleted."
+msgstr "La categoría ha sido eliminada permanentemente."
+
+msgid "The comment could not be deleted."
+msgstr "No se pudo eliminar el comentario."
+
+msgid "The comment has been moved to the trash."
+msgstr "El comentario ha sido movido a la papelera."
+
+msgid "The comment has been permanently deleted."
+msgstr "El comentario ha sido eliminado permanentemente."
+
+msgid "The coupon could not be deleted."
+msgstr "No se pudo eliminar el cupón."
+
+msgid "The coupon has been permanently deleted."
+msgstr "El cupón ha sido eliminado permanentemente."
+
+msgid "The default category cannot be deleted. Please set a different default category first."
+msgstr "La categoría predeterminada no se puede eliminar. Por favor, configura primero una categoría predeterminada diferente."
+
+msgid "The media item could not be deleted."
+msgstr "No se pudo eliminar el elemento multimedia."
+
+msgid "The media item has been moved to the trash."
+msgstr "El elemento multimedia ha sido movido a la papelera."
+
+msgid "The media item has been permanently deleted."
+msgstr "El contenido multimedia ha sido eliminado permanentemente."
+
+msgid "The order could not be deleted."
+msgstr "No se pudo eliminar el pedido."
+
+msgid "The order has been moved to the trash."
+msgstr "El pedido ha sido trasladado a la papelera."
+
+msgid "The order has been permanently deleted."
+msgstr "El pedido ha sido eliminado permanentemente."
+
+msgid "The page could not be deleted."
+msgstr "No se pudo eliminar la página."
+
+msgid "The page has been moved to the trash."
+msgstr "La página ha sido movida a la papelera."
+
+msgid "The page has been permanently deleted."
+msgstr "La página ha sido eliminada permanentemente."
+
+msgid "The post could not be deleted."
+msgstr "No se pudo eliminar la publicación."
+
+msgid "The post has been moved to the trash."
+msgstr "La publicación ha sido movida a la papelera."
+
+msgid "The post has been permanently deleted."
+msgstr "La publicación ha sido eliminada permanentemente."
+
+msgid "The product could not be deleted."
+msgstr "No se pudo eliminar el producto."
+
+msgid "The product has been moved to the trash."
+msgstr "El producto ha sido trasladado a la papelera."
+
+msgid "The product has been permanently deleted."
+msgstr "El producto ha sido eliminado permanentemente."
+
+msgid "The user could not be deleted."
+msgstr "No se pudo eliminar al usuario."
+
+msgid "The user has been deleted."
+msgstr "El usuario ha sido eliminado."
+
+msgid "Theme activated successfully."
+msgstr "Tema activado correctamente."
+
+msgid "Theme deleted successfully."
+msgstr "Tema eliminado correctamente."
+
+msgid "Theme deletion failed."
+msgstr "Error al eliminar el tema."
+
+msgid "Theme installation completed, but theme information could not be retrieved."
+msgstr "La instalación del tema se ha completado, pero no se ha podido recuperar la información del tema."
+
+msgid "Theme installation failed."
+msgstr "La instalación del tema ha fallado."
+
+msgid "Theme installed successfully."
+msgstr "Tema instalado correctamente."
+
+msgid "Theme is already active."
+msgstr "El tema ya está activo."
+
+msgid "Theme is already up to date."
+msgstr "El tema ya está actualizado."
+
+msgid "Theme not found."
+msgstr "Tema no encontrado."
+
+msgid "Theme update failed."
+msgstr "La actualización del tema ha fallado."
+
+msgid "Theme updated successfully."
+msgstr "Tema actualizado correctamente."
+
+msgid "Token can not be empty."
+msgstr "El token no puede estar vacío."
+
+msgid "Token validation failed: %s"
+msgstr "Error en la validación del token: %s"
+
+msgid "Unexpected error:"
+msgstr "Error inesperado:"
+
+msgid "Upgrade to Plus"
+msgstr "Actualiza a Plus"
+
+msgid "User ID is required for updating users."
+msgstr "Se requiere el ID de usuario para actualizar los usuarios."
+
+msgid "User uploaded image"
+msgstr "Imagen subida por el usuario"
+
+msgid "Username already exists."
+msgstr "El nombre de usuario ya existe."
+
+msgid "WordPress core is already up to date."
+msgstr "El núcleo de WordPress ya está actualizado."
+
+msgid "WordPress core updated successfully."
+msgstr "El núcleo de WordPress se actualizó correctamente."
+
+msgid "You do not have permission to edit content."
+msgstr "No tienes permiso para editar el contenido."
+
+msgid "You've run out of tokens."
+msgstr "Te has quedado sin tokens."
+
+msgid "Your plugin is connected to your SiteGround AI Studio service."
+msgstr "Tu plugin está conectado a tu servicio SiteGround AI Studio."
+
+msgid "Your plugin is not linked to your SiteGround AI Studio service."
+msgstr "Tu plugin no está vinculado a tu servicio SiteGround AI Studio."
+
+msgid "Your site is not connected."
+msgstr "Tu sitio no está conectado."
+
+msgid "You’re almost out of tokens."
+msgstr "Te estás quedando sin tokens."
+
+msgid "You’re running low on tokens."
+msgstr "Te estás quedando sin tokens."
+
+msgid "Batch Comment Creation: %1$d created, %2$d errors"
+msgstr "Creación de comentarios en bloque: %1$d creados, %2$d errores"
+
+msgid "Batch Comment Deletion: %1$d deleted, %2$d errors"
+msgstr "Eliminación de comentarios en bloque: %1$d eliminados, %2$d errores"
+
+msgid "Batch Comment Update: %1$d updated, %2$d errors"
+msgstr "Actualización de comentarios en bloque: %1$d actualizados, %2$d errores"
+
+msgid "Batch Media Moved to Trash: %1$d deleted, %2$d errors"
+msgstr "Medios movidos en bloque a la papelera: %1$d eliminados, %2$d errores"
+
+msgid "Batch Media Permanently Deleted: %1$d deleted, %2$d errors"
+msgstr "Medios eliminados en bloque permanentemente: %1$d eliminados, %2$d errores"
+
+msgid "Batch Media Update: %1$d updated, %2$d errors"
+msgstr "Actualización de medios en bloque: %1$d actualizados, %2$d errores"
+
+msgid "Cache Cleared: All caches have been cleared"
+msgstr "Caché borrada: se han borrado todas las cachés."
+
+msgid "Category Created: %1$s (ID: %2$d)"
+msgstr "Categoría creada: %1$s (ID: %2$d)"
+
+msgid "Category Deleted: %1$s (ID: %2$d)"
+msgstr "Categoría eliminada: %1$s (ID: %2$d)"
+
+msgid "Category Updated: %1$s (ID: %2$d)"
+msgstr "Categoría actualizada: %1$s (ID: %2$d)"
+
+msgid "Comment Created on: %1$s (Comment ID: %2$d)"
+msgstr "Comentario creado el: %1$s (ID del comentario: %2$d)"
+
+msgid "Comment Moved to Trash from: %1$s (Comment ID: %2$d)"
+msgstr "Comentario movido a la papelera desde: %1$s (ID del comentario: %2$d)"
+
+msgid "Comment Permanently Deleted from: %1$s (Comment ID: %2$d)"
+msgstr "Comentario eliminado permanentemente de: %1$s (ID del comentario: %2$d)"
+
+msgid "Comment Status Changed to %1$s on: %2$s (Comment ID: %3$d)"
+msgstr "Estado del comentario cambiado a %1$s el: %2$s (ID del comentario: %3$d)"
+
+msgid "Comment Updated on: %1$s (Comment ID: %2$d)"
+msgstr "Comentario actualizado el: %1$s (ID del comentario: %2$d)"
+
+msgid "Core Update Failed: %s"
+msgstr "Error en la actualización del núcleo: %s"
+
+msgid "Core Updated: WordPress updated to version %s"
+msgstr "Núcleo actualizado: WordPress actualizado a la versión %s"
+
+msgid "Coupon Created: %1$s (Coupon ID: %2$d)"
+msgstr "Cupón creado: %1$s (ID del cupón: %2$d)"
+
+msgid "Coupon Deleted: %1$s (Coupon ID: %2$d)"
+msgstr "Cupón eliminado: %1$s (ID de cupón: %2$d)"
+
+msgid "Coupon Updated: %1$s (Coupon ID: %2$d)"
+msgstr "Cupón actualizado: %1$s (ID del cupón: %2$d)"
+
+msgid "Hi! I am your WordPress AI Assistant. How can I help you manage your site today? **Here are a few suggestions:** - **Create a new blog post or page** with a title, contant and featured image - **Install a plugin** like Yoast SEO - **List all active plugins** and their versions on the site"
+msgstr "¡Hola! Soy tu asistente de inteligencia artificial de WordPress. ¿Cómo puedo ayudarte a administrar tu sitio hoy? **Algunas sugerencias:** - **Crea una nueva entrada o página de blog** con título, contenido e imagen destacada - **Instala un plugin** como Yoast SEO - **Enumera todos los plugins activos** y sus versiones en el sitio"
+
+msgid "Hi! I am your WordPress AI Assistant. How can I help you manage your store today? **Here are a few suggestions:** - **Create a new product** with a price, product image and description - **Summarize today's orders** to see your sales - **Generate a sales report** for this month"
+msgstr "¡Hola! Soy tu asistente de inteligencia artificial de WordPress. ¿Cómo puedo ayudarte a administrar tu tienda hoy? **Aquí tienes algunas sugerencias:** - **Crea un nuevo producto** con precio, imagen y descripción - **Resume los pedidos de hoy** para ver tus ventas - **Genera un informe de ventas** de este mes"
+
+msgid "Language Pack Update Failed: %s"
+msgstr "Error al actualizar el paquete de idioma: %s"
+
+msgid "Language Packs Updated: %d language pack(s) updated successfully"
+msgstr "Paquetes de idioma actualizados: %d paquete(s) de idioma actualizado(s) correctamente"
+
+msgid "Media Moved to Trash: %1$s (Media ID: %2$d)"
+msgstr "Medios movidos a la papelera: %1$s (ID del medio: %2$d)"
+
+msgid "Media Permanently Deleted: %1$s (Media ID: %2$d)"
+msgstr "Medios eliminados permanentemente: %1$s (ID del medio: %2$d)"
+
+msgid "Media Updated: %1$s (Media ID: %2$d)"
+msgstr "Medios actualizados: %1$s (ID del medio: %2$d)"
+
+msgid "Media Uploaded: %1$s (Media ID: %2$d)"
+msgstr "Medios cargados: %1$s (ID del medio: %2$d)"
+
+msgid "Order Created (Order ID: %d)"
+msgstr "Pedido creado (ID del pedido: %d)"
+
+msgid "Order Moved to Trash (Order ID: %d)"
+msgstr "Pedido movido a la papelera (ID del pedido: %d)"
+
+msgid "Order Permanently Deleted (Order ID: %d)"
+msgstr "Pedido eliminado permanentemente (ID del pedido: %d)"
+
+msgid "Order Updated (Order ID: %d)"
+msgstr "Pedido actualizado (ID del pedido: %d)"
+
+msgid "Page Created: %1$s (ID: %2$d)"
+msgstr "Página creada: %1$s (ID: %2$d)"
+
+msgid "Page Updated: %1$s (ID: %2$d)"
+msgstr "Página actualizada: %1$s (ID: %2$d)"
+
+msgid "Plugin Activated: %s"
+msgstr "Plugin activado: %s"
+
+msgid "Plugin Deactivated: %s"
+msgstr "Plugin desactivado: %s"
+
+msgid "Plugin Deleted: %s"
+msgstr "Plugin eliminado: %s"
+
+msgid "Plugin Installed: %s"
+msgstr "Plugin instalado: %s"
+
+msgid "Plugin Installed: %s (Activated)"
+msgstr "Plugin instalado: %s (activado)"
+
+msgid "Plugin Updated: %1$s (from version %2$s to %3$s)"
+msgstr "Plugin actualizado: %1$s (de la versión %2$s a %3$s)"
+
+msgid "Post Created: %1$s (ID: %2$d)"
+msgstr "Publicación creada: %1$s (ID: %2$d)"
+
+msgid "Post moved to trash: %1$s (ID: %2$d)"
+msgstr "Publicación movida a la papelera: %1$s (ID: %2$d)"
+
+msgid "Post permanently deleted: %1$s (ID: %2$d)"
+msgstr "Publicación eliminada permanentemente: %1$s (ID: %2$d)"
+
+msgid "Post Updated: %1$s (ID: %2$d)"
+msgstr "Publicación actualizada: %1$s (ID: %2$d)"
+
+msgid "Product Created: %1$s (Product ID: %2$d)"
+msgstr "Producto creado: %1$s (ID del producto: %2$d)"
+
+msgid "Product Moved to Trash: %1$s (Product ID: %2$d)"
+msgstr "Producto movido a la papelera: %1$s (ID del producto: %2$d)"
+
+msgid "Product Permanently Deleted: %1$s (Product ID: %2$d)"
+msgstr "Producto eliminado permanentemente: %1$s (ID del producto: %2$d)"
+
+msgid "Product Updated: %1$s (Product ID: %2$d)"
+msgstr "Producto actualizado: %1$s (ID del producto: %2$d)"
+
+msgid "Setting Updated: %1$s (from \"%2$s\" to \"%3$s\")"
+msgstr "Configuración actualizada: %1$s (de \"%2$s\" a \"%3$s\")"
+
+msgid "Theme Activated: %s"
+msgstr "Tema activado: %s"
+
+msgid "Theme Deleted: %s"
+msgstr "Tema eliminado: %s"
+
+msgid "Theme Installed: %s"
+msgstr "Tema instalado: %s"
+
+msgid "Theme Installed: %s (Activated)"
+msgstr "Tema instalado: %s (activado)"
+
+msgid "Theme Updated: %1$s (from version %2$s to %3$s)"
+msgstr "Tema actualizado: %1$s (de la versión %2$s a %3$s)"
+
+msgid "User Created: %1$s (ID: %2$d)"
+msgstr "Usuario creado: %1$s (ID: %2$d)"
+
+msgid "User Deleted: %1$s (ID: %2$d)"
+msgstr "Usuario eliminado: %1$s (ID: %2$d)"
+
+msgid "User Updated: %1$s (ID: %2$d)"
+msgstr "Usuario actualizado: %1$s (ID: %2$d)"
+
