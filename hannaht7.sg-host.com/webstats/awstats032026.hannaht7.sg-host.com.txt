@@ -1,0 +1,275 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202603 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.hannaht7.sg-host.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2003                
+POS_TIME 2674                
+POS_VISITOR 3347                
+POS_DAY 3575                
+POS_DOMAIN 3725                
+POS_LOGIN 3967                
+POS_ROBOT 4122                
+POS_WORMS 4290                
+POS_EMAILSENDER 4421                
+POS_EMAILRECEIVER 4564                
+POS_SESSION 4640                
+POS_SIDER 4797                
+POS_FILETYPES 5965                
+POS_DOWNLOADS 6227                
+POS_OS 6275                
+POS_BROWSER 6366                
+POS_SCREENSIZE 6471                
+POS_UNKNOWNREFERER 6545                
+POS_UNKNOWNREFERERBROWSER 6690                
+POS_ORIGIN 6830                
+POS_SEREFERRALS 6964                
+POS_PAGEREFS 7108                
+POS_SEARCHWORDS 7256                
+POS_KEYWORDS 7408                
+POS_MISC 2338                
+POS_ERRORS 7467                
+POS_CLUSTER 3823                
+POS_SIDER_404 7568                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260305004548 294 113606 0
+FirstTime 20260304005622
+LastTime 20260304010613
+LastUpdate 20260305044227 294 0 270 0 24
+TotalVisits 4                   
+TotalUnique 4                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 2 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 41 172 3380877 13 15 14897
+1 37 75 1025323 3 3 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 1 1 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 1 1 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 1 1 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 1 1 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 1 1 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+192.64.2.29 74 240 4297707 20260304010613
+87.118.135.66 2 5 84866 20260304005910
+34.12.2.169 1 1 278 20260304005656
+35.215.107.213 1 1 23349 20260304005622
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20260304 78 247 4406200 4
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 76 242 4321334
+bg 2 5 84866
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+wordpress 13 14811 20260305004548 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 3
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+/wp-admin/async-upload.php 11 9590 0 0
+/wp-admin/admin-ajax.php 10 82510 0 1
+/wp-json/sg-ai-studio/settings-page/connected 8 144 0 0
+/wp-json/wp/v2/users/me 8 5736 0 0
+/wp-json/sg-ai-studio/acl 8 1296 0 0
+/wp-admin/load-scripts.php 4 132840 0 0
+/wp-json/siteground-central/v1/get-step/1 3 1092 0 0
+/wp-admin/themes.php 3 84482 0 0
+/wp-json/siteground-central/v1/save-step 3 1004 0 0
+/ 3 51254 2 1
+/wp-json/siteground-central/v1/get-step 1 320 0 0
+/wp-json/siteground-central/v1/get-step/0 2 640 0 0
+/wp-json/siteground-central/v1/exit-wizard 1 101 0 0
+/wp-json/sg-ai-studio/usage 1 47 0 0
+/wp-admin/load-styles.php 2 233885 0 0
+/wp-admin/upload.php 1 23482 0 0
+/wp-admin/theme-install.php 1 25773 0 0
+/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2 1 53600 0 1
+/wp-admin/options-general.php 2 67883 0 0
+/wp-admin/index.php 1 509 1 0
+/wp-json/siteground-central/v1/get-step/3 1 3177 0 0
+/wp-admin/admin.php 1 22429 0 0
+/wp-json/sg-ai-studio/ping 1 278 1 1
+/wp-json/siteground-central/v1/dashboard 1 1128 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+js 114 1796899 0 0
+Unknown 38 14963 0 0
+gif 5 30666 0 0
+svg 16 22005 0 0
+jpeg 3 50307 0 0
+jpg 11 524936 0 0
+css 13 100466 0 0
+woff2 1 53600 0 0
+png 7 1077721 0 0
+html 3 51254 0 0
+php 36 683383 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+macosx 245 76
+Unknown 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+Unknown 2 2
+chrome145.0.0.0 5 2
+chrome143.0.0.0 240 74
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Go-http-client/1.1 20260304005622
+ai-tools 20260304005656
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+ai-tools 20260304005656
+Go-http-client/1.1 20260304005622
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 6 29
+From1 0 0
+From2 0 0
+From3 0 0
+From4 72 218
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 5 0
+404 1 86
+499 2 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/2026/03/04/hello-world/ 1 -
+END_SIDER_404
