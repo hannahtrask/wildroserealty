@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.7 (build 20161204)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2003                
-POS_TIME 2674                
-POS_VISITOR 3347                
-POS_DAY 3575                
-POS_DOMAIN 3725                
-POS_LOGIN 3967                
-POS_ROBOT 4122                
-POS_WORMS 4290                
-POS_EMAILSENDER 4421                
-POS_EMAILRECEIVER 4564                
-POS_SESSION 4640                
-POS_SIDER 4797                
-POS_FILETYPES 5965                
-POS_DOWNLOADS 6227                
-POS_OS 6275                
-POS_BROWSER 6366                
-POS_SCREENSIZE 6471                
-POS_UNKNOWNREFERER 6545                
-POS_UNKNOWNREFERERBROWSER 6690                
-POS_ORIGIN 6830                
-POS_SEREFERRALS 6964                
-POS_PAGEREFS 7108                
-POS_SEARCHWORDS 7256                
-POS_KEYWORDS 7408                
-POS_MISC 2338                
-POS_ERRORS 7467                
-POS_CLUSTER 3823                
-POS_SIDER_404 7568                
+POS_TIME 2677                
+POS_VISITOR 6840                
+POS_DAY 7173                
+POS_DOMAIN 3246                
+POS_LOGIN 3492                
+POS_ROBOT 3647                
+POS_WORMS 3850                
+POS_EMAILSENDER 3981                
+POS_EMAILRECEIVER 4124                
+POS_SESSION 7353                
+POS_SIDER 7532                
+POS_FILETYPES 4259                
+POS_DOWNLOADS 4549                
+POS_OS 4664                
+POS_BROWSER 4757                
+POS_SCREENSIZE 4867                
+POS_UNKNOWNREFERER 4941                
+POS_UNKNOWNREFERERBROWSER 5086                
+POS_ORIGIN 5226                
+POS_SEREFERRALS 5362                
+POS_PAGEREFS 5506                
+POS_SEARCHWORDS 5654                
+POS_KEYWORDS 5806                
+POS_MISC 2341                
+POS_ERRORS 5865                
+POS_CLUSTER 3348                
+POS_SIDER_404 5982                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,77 +46,62 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20260305004548 294 113606 0
+LastLine 20260308032753 1237 506754 0
 FirstTime 20260304005622
-LastTime 20260304010613
-LastUpdate 20260305044227 294 0 270 0 24
-TotalVisits 4                   
-TotalUnique 4                   
+LastTime 20260308032733
+LastUpdate 20260308043159 1237 1142 9 0 86
+TotalVisits 12                  
+TotalUnique 6                   
 MonthHostsKnown 0                   
-MonthHostsUnknown 4                   
+MonthHostsUnknown 6                   
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
 TotalMisc 0 0 0
-PDFSupport 0 0 0
-AddToFavourites 0 2 0
-QuickTimeSupport 0 0 0
 DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
 RealPlayerSupport 0 0 0
 FlashSupport 0 0 0
-JavaEnabled 0 0 0
-JavascriptDisabled 0 0 0
-WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 6 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 41 172 3380877 13 15 14897
+0 41 172 3380877 16 18 14897
 1 37 75 1025323 3 3 0
-2 0 0 0 0 0 0
-3 0 0 0 0 0 0
-4 0 0 0 1 1 0
+2 1 1 13304 1 2 1259
+3 1 1 13304 1 2 1259
+4 0 0 0 9 9 47067
 5 0 0 0 0 0 0
 6 0 0 0 0 0 0
 7 0 0 0 0 0 0
-8 0 0 0 1 1 0
+8 0 0 0 4 4 0
 9 0 0 0 0 0 0
 10 0 0 0 0 0 0
 11 0 0 0 0 0 0
-12 0 0 0 1 1 0
+12 0 0 0 4 4 0
 13 0 0 0 0 0 0
 14 0 0 0 0 0 0
 15 0 0 0 0 0 0
-16 0 0 0 1 1 0
-17 0 0 0 0 0 0
-18 0 0 0 0 0 0
+16 73 322 7762302 38 39 203401
+17 23 28 1801185 3 3 0
+18 382 410 236737755 25 29 10970
 19 0 0 0 0 0 0
-20 0 0 0 1 1 0
+20 0 0 0 4 4 0
 21 0 0 0 0 0 0
-22 0 0 0 0 0 0
+22 1 1 21003 2 16 75243
 23 0 0 0 0 0 0
 END_TIME
-
-# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
-# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
-# The 10 first Hits must be first (order not required for others)
-BEGIN_VISITOR 4
-192.64.2.29 74 240 4297707 20260304010613
-87.118.135.66 2 5 84866 20260304005910
-34.12.2.169 1 1 278 20260304005656
-35.215.107.213 1 1 23349 20260304005622
-END_VISITOR
-
-# Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 1
-20260304 78 247 4406200 4
-END_DAY
 
 # Domain - Pages - Hits - Bandwidth
 # The 10 first Pages must be first (order not required for others)
 BEGIN_DOMAIN 2
-us 76 242 4321334
+us 557 1005 134075819
 bg 2 5 84866
 END_DOMAIN
 
@@ -131,8 +116,9 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 10 first Hits must be first (order not required for others)
-BEGIN_ROBOT 1
-wordpress 13 14811 20260305004548 0
+BEGIN_ROBOT 2
+wordpress 60 256820 20260308032733 0
+scanner 16 77761 20260308032753 0
 END_ROBOT
 
 # Worm ID - Hits - Bandwidth - Last visit
@@ -150,71 +136,38 @@ END_EMAILSENDER
 BEGIN_EMAILRECEIVER 0
 END_EMAILRECEIVER
 
-# Session range - Number of visits
-BEGIN_SESSION 2
-0s-30s 3
-5mn-15mn 1
-END_SESSION
-
-# URL - Pages - Bandwidth - Entry - Exit
-# The 10 first Pages must be first (order not required for others)
-BEGIN_SIDER 24
-/wp-admin/async-upload.php 11 9590 0 0
-/wp-admin/admin-ajax.php 10 82510 0 1
-/wp-json/sg-ai-studio/settings-page/connected 8 144 0 0
-/wp-json/wp/v2/users/me 8 5736 0 0
-/wp-json/sg-ai-studio/acl 8 1296 0 0
-/wp-admin/load-scripts.php 4 132840 0 0
-/wp-json/siteground-central/v1/get-step/1 3 1092 0 0
-/wp-admin/themes.php 3 84482 0 0
-/wp-json/siteground-central/v1/save-step 3 1004 0 0
-/ 3 51254 2 1
-/wp-json/siteground-central/v1/get-step 1 320 0 0
-/wp-json/siteground-central/v1/get-step/0 2 640 0 0
-/wp-json/siteground-central/v1/exit-wizard 1 101 0 0
-/wp-json/sg-ai-studio/usage 1 47 0 0
-/wp-admin/load-styles.php 2 233885 0 0
-/wp-admin/upload.php 1 23482 0 0
-/wp-admin/theme-install.php 1 25773 0 0
-/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2 1 53600 0 1
-/wp-admin/options-general.php 2 67883 0 0
-/wp-admin/index.php 1 509 1 0
-/wp-json/siteground-central/v1/get-step/3 1 3177 0 0
-/wp-admin/admin.php 1 22429 0 0
-/wp-json/sg-ai-studio/ping 1 278 1 1
-/wp-json/siteground-central/v1/dashboard 1 1128 0 0
-END_SIDER
-
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
-BEGIN_FILETYPES 11
-js 114 1796899 0 0
-Unknown 38 14963 0 0
-gif 5 30666 0 0
-svg 16 22005 0 0
-jpeg 3 50307 0 0
-jpg 11 524936 0 0
-css 13 100466 0 0
-woff2 1 53600 0 0
-png 7 1077721 0 0
-html 3 51254 0 0
-php 36 683383 0 0
+BEGIN_FILETYPES 12
+css 46 296830 0 0
+png 17 3808890 0 0
+php 125 4744431 0 0
+jpg 25 1096370 0 0
+html 34 676828 0 0
+gif 9 64632 0 0
+woff2 2 107200 0 0
+jpeg 6 100614 0 0
+js 308 5888576 0 0
+Unknown 392 403769 0 0
+webp 6 335682 0 0
+svg 40 42495 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
-BEGIN_DOWNLOADS 0
+BEGIN_DOWNLOADS 1
+/wp-content/uploads/2026/03/AdobeStock_246927760.mov 0 8 116594368
 END_DOWNLOADS
 
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 2
-macosx 245 76
-Unknown 2 2
+macosx 1009 550
+Unknown 9 9
 END_OS
 
 # Browser ID - Hits - Pages
 BEGIN_BROWSER 3
-Unknown 2 2
-chrome145.0.0.0 5 2
-chrome143.0.0.0 240 74
+chrome143.0.0.0 586 166
+chrome145.0.0.0 423 384
+Unknown 9 9
 END_BROWSER
 
 # Screen size - Hits
@@ -223,23 +176,23 @@ END_SCREENSIZE
 
 # Unknown referer OS - Last visit date
 BEGIN_UNKNOWNREFERER 2
-Go-http-client/1.1 20260304005622
-ai-tools 20260304005656
+ai-tools 20260305170110
+Go-http-client/1.1 20260308032733
 END_UNKNOWNREFERER
 
 # Unknown referer Browser - Last visit date
 BEGIN_UNKNOWNREFERERBROWSER 2
-ai-tools 20260304005656
-Go-http-client/1.1 20260304005622
+Go-http-client/1.1 20260308032733
+ai-tools 20260305170110
 END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 6 29
+From0 22 49
 From1 0 0
 From2 0 0
 From3 0 0
-From4 72 218
+From4 537 969
 From5 0 0
 END_ORIGIN
 
@@ -263,13 +216,142 @@ BEGIN_KEYWORDS 0
 END_KEYWORDS
 
 # Errors - Hits - Bandwidth
-BEGIN_ERRORS 3
-302 5 0
-404 1 86
-499 2 0
+BEGIN_ERRORS 4
+201 5 18857
+404 12 658
+499 13 0
+302 21 0
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 1
+BEGIN_SIDER_404 8
+/wp-json/sg-ai-studio/ping 3 -
+/wp-json/wp/v2/media/61 2 https://hannaht7.sg-host.com/wp-admin/site-editor.php
+/wp-json/wp/v2/navigation/7501 2 https://hannaht7.sg-host.com/wp-admin/site-editor.php
+/wp-admin/admin-ajax.php 1 https://hannaht7.sg-host.com/wp-admin/customize.php
 /2026/03/04/hello-world/ 1 -
+/wp-json/wp/v2/media/333 1 https://hannaht7.sg-host.com/wp-admin/site-editor.php
+/wp-json/wp/v2/media/334 1 https://hannaht7.sg-host.com/wp-admin/site-editor.php
+/wp-json/wp/v2/media/335 1 https://hannaht7.sg-host.com/wp-admin/site-editor.php
 END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 6
+184.167.84.125 474 764 129642141 20260306184301
+192.64.2.29 74 240 4297707 20260304010613
+35.215.107.213 4 4 70960 20260308032733 20260308032733 /
+34.12.2.169 3 3 23119 20260305170110
+34.6.126.216 2 2 41892 20260305165931
+87.118.135.66 2 5 84866 20260304005910
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20260304 78 247 4406200 4
+20260305 100 354 9613484 5
+20260306 379 407 236708761 1
+20260307 1 1 13304 1
+20260308 1 1 13304 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 7
+5mn-15mn 1
+15mn-30mn 2
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 87
+/wp-json/sg-ai-studio/settings-page/connected 46 828 0 1
+/wp-json/sg-ai-studio/acl 45 7290 0 1
+/wp-admin/admin-ajax.php 44 1434247 0 1
+/wp-json/wp/v2/users/me 32 22801 0 0
+/ 27 616103 7 4
+/wp-json/wp/v2/posts 23 2453 0 0
+/wp-json/wp/v2/pages 21 35226 0 0
+/wp-json/wp/v2/taxonomies 20 20117 0 0
+/wp-json/wp/v2/comments 18 26 0 0
+/wp-json/wp/v2/blocks 17 20758 0 0
+/wp-json/siteground-central/v1/get-step/0 2 640 0 0
+/wp-json/wp-block-editor/v1/url-details 1 0 0 0
+/wp-json/wp/v2/block-directory/search 4 5236 0 1
+/about/ 1 18286 0 0
+/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2 2 107200 0 1
+/wp-json/wp/v2/block-renderer/core/latest-comments 1 95 0 0
+/wp-json/wp/v2/template-parts/twentytwentyfive/header-large-title 1 855 0 0
+/wp-admin/index.php 1 509 1 0
+/wp-json/sg-ai-studio/pages/batch 1 1895 0 1
+/wp-json/wp/v2/categories 3 305 0 0
+/wp-json/wp/v2/block-renderer/core/rss 1 237 0 0
+/wp-json/wp/v2/users/1 1 780 0 0
+/wp-json/siteground-central/v1/get-step/3 1 3177 0 0
+/wp-json/sg-ai-studio/generate-token 1 371 0 0
+/wp-json/wp/v2/widget-types 2 1542 0 0
+/wp-admin/async-upload.php 12 10459 0 0
+/wp-json/wp/v2/templates 8 13033 0 0
+/wp-json/sg-ai-studio/ping 1 278 1 1
+/wp-admin/options-general.php 2 67883 0 0
+/wp-json/sg-ai-studio/usage 4 252 0 0
+/wp-json/siteground-central/v1/exit-wizard 1 101 0 0
+/wp-json/wp/v2/templates/lookup 9 3836 0 0
+/wp-admin/themes.php 8 227389 0 0
+/wp-json/wp/v2/types 6 10274 0 0
+/wp-json/wp/v2/pages/26 4 5193 0 0
+/wp-json/wp/v2/block-renderer/core/tag-cloud 1 84 0 0
+/wp-json/wp/v2/tags 2 4 0 0
+/wp-json/wp/v2/blocks/38 2 2917 0 0
+/wp-admin/customize.php 3 356761 0 0
+/wp-admin/load-styles.php 7 878806 0 0
+/wp-json/siteground-central/v1/get-step 1 320 0 0
+/wp-json/wp/v2/template-parts 4 4116 0 0
+/wp-json/wp/v2/pages/26/autosaves 3 2158 0 0
+/wp-json/wp/v2/users 8 346 0 0
+/wp-json/wp/v2/taxonomies/post_tag 1 783 0 0
+/wp-json/wp/v2/settings 15 14297 0 0
+/wp-json/wp/v2/pages/2 1 1301 0 0
+/wp-json/siteground-central/v1/dashboard 9 10168 0 0
+/wp-json/wp/v2/media/10 1 951 0 0
+/wp-admin/theme-install.php 2 53354 0 0
+/wp-admin/site-editor.php 7 415829 0 0
+/wp-json/wp/v2/template-parts/twentytwentyfive/sidebar 1 1055 0 0
+/wp-json/wp/v2/types/wp_block 4 3300 0 0
+/home/ 2 39979 0 0
+/wp-content/themes/twentytwentyfive/assets/images/northern-buttercups-flowers.webp 1 35820 0 0
+/wp-admin/edit.php 11 307786 1 0
+/wp-json/wp/v2/block-renderer/core/archives 1 71 0 0
+/wp-json/wp/v2/taxonomies/category 1 826 0 0
+/wp-json/wp/v2/template-parts/twentytwentyfive/header 1 716 0 0
+/wp-json/wp/v2/pages/ 1 2454 0 0
+/wp-admin/admin.php 10 213166 2 0
+/wp-content/themes/twentytwentyfive/assets/images/404-image.webp 1 129970 0 0
+/wp-content/themes/twentytwentyfive/assets/images/hero-podcast.webp 1 60794 0 0
+/wp-admin/upload.php 1 23482 0 0
+/wp-json/wp/v2/wp_pattern_category 12 24 0 0
+/wp-content/themes/twentytwentyfive/assets/images/ruins-image.webp 1 68384 0 0
+/wp-json/siteground-central/v1/get-step/1 3 1092 0 0
+/wp-content/themes/twentytwentyfive/assets/images/book-image-landing.webp 1 19734 0 0
+/wp-json/wp/v2/blocks/32 3 4310 0 0
+/wp-json/wp/v2/types/post 1 832 0 0
+/wp-json/wp/v2/menus 4 8 0 0
+/wp-json/wp/v2/template-parts/twentytwentyfive/footer-columns 1 1196 0 0
+/wp-json/wp/v2/template-parts/twentytwentyfive/vertical-header 2 1706 0 0
+/wp-json/wp/v2/undefined/ 3 6 0 0
+/wp-json/wp/v2/navigation/7501 2 2150 0 0
+/wp-json/siteground-central/v1/save-step 3 1004 0 0
+/wp-json/wp/v2/templates/twentytwentyfive/front-page 4 5144 0 0
+/wp-content/themes/twentytwentyfive/assets/images/book-image.webp 1 20980 0 0
+/wp-admin/post.php 6 375811 0 0
+/wp-json/wp/v2/template-parts/twentytwentyfive/footer 2 2184 0 0
+/wp-json/wp-block-editor/v1/navigation-fallback 3 1473 0 0
+/wp-json/wp/v2/types/page 2 1628 0 0
+/wp-json/wp/v2/navigation/4 4 3247 0 0
+/wp-admin/load-scripts.php 11 378949 0 0
+/wp-json/wp/v2/block-patterns/patterns 7 167435 0 0
+/wp-json/wp/v2/template-parts/twentytwentyfive/footer-newsletter 1 1032 0 0
+/wp-json/wp/v2/navigation 8 8292 0 0
+END_SIDER

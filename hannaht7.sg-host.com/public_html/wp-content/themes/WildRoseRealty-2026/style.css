@@ -1,0 +1,452 @@
+/*!
+Theme Name: WildRose Realty 2026
+Theme URI: https://example.com/wildrose-realty
+Author: WildRose Realty
+Author URI: https://example.com
+Description: A luxury real estate WordPress theme designed for high-end property listings, inspired by premium real estate brokerages. Features elegant property showcases, location-based filtering, lifestyle categories, and professional property management.
+Version: 1.0.0
+Requires at least: 5.9
+Requires PHP: 7.4
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wildrose-realty
+Domain Path: /languages
+*/
+
+/* ==========================================================================
+   WILDROSE REALTY 2026 - LUXURY REAL ESTATE THEME
+   ========================================================================== */
+
+:root {
+  /* Primary Colors - Earthy, Sophisticated Palette */
+  --color-primary: #8B6F47;
+  --color-primary-dark: #6B5437;
+  --color-primary-light: #A89070;
+  
+  /* Accent Colors */
+  --color-accent: #2C4A3E;
+  --color-accent-light: #3D5C51;
+  --color-accent-lighter: #6B8B7E;
+  
+  /* Neutral Colors */
+  --color-white: #FFFFFF;
+  --color-black: #1A1A1A;
+  --color-gray-dark: #3A3A3A;
+  --color-gray: #6F6F6F;
+  --color-gray-light: #B3B3B3;
+  --color-gray-lighter: #E8E8E8;
+  --color-gray-lightest: #F5F5F5;
+  
+  /* Accent Colors */
+  --color-success: #4CAF50;
+  --color-warning: #FF9800;
+  --color-danger: #E74C3C;
+  --color-info: #3498DB;
+  
+  /* Typography */
+  --font-display: 'Merriweather', 'Georgia', serif;
+  --font-body: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'Monaco', 'Courier New', monospace;
+  
+  /* Font Sizes */
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.25rem;
+  --fs-2xl: 1.5rem;
+  --fs-3xl: 1.875rem;
+  --fs-4xl: 2.25rem;
+  --fs-5xl: 3rem;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  --spacing-4xl: 6rem;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.2);
+  
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 300ms ease-in-out;
+  --transition-slow: 500ms ease-in-out;
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+}
+
+/* ==========================================================================
+   GLOBAL STYLES
+   ========================================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  line-height: 1.6;
+  color: var(--color-gray-dark);
+  background-color: var(--color-white);
+  letter-spacing: -0.01em;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-black);
+}
+
+h1 {
+  font-size: var(--fs-5xl);
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: var(--fs-4xl);
+  letter-spacing: -0.015em;
+}
+
+h3 {
+  font-size: var(--fs-3xl);
+}
+
+h4 {
+  font-size: var(--fs-2xl);
+}
+
+h5 {
+  font-size: var(--fs-xl);
+}
+
+h6 {
+  font-size: var(--fs-lg);
+}
+
+p {
+  margin-bottom: var(--spacing-md);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul, ol {
+  margin-left: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+}
+
+li {
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Code & Pre */
+code {
+  background: var(--color-gray-lightest);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: var(--fs-sm);
+  color: var(--color-danger);
+}
+
+pre {
+  background: var(--color-gray-dark);
+  color: var(--color-white);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+  margin-bottom: var(--spacing-lg);
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
+/* ==========================================================================
+   BUTTONS
+   ========================================================================== */
+
+.btn {
+  display: inline-block;
+  padding: var(--spacing-md) var(--spacing-xl);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  box-shadow: var(--shadow-md);
+}
+
+.btn:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-secondary {
+  background-color: var(--color-accent);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-accent-light);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  box-shadow: none;
+}
+
+.btn-outline:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btn-small {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-size: var(--fs-sm);
+}
+
+.btn-large {
+  padding: var(--spacing-lg) var(--spacing-2xl);
+  font-size: var(--fs-lg);
+}
+
+.btn-full {
+  width: 100%;
+}
+
+/* ==========================================================================
+   CONTAINER & LAYOUT
+   ========================================================================== */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+}
+
+.container-lg {
+  max-width: 1400px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-2xl);
+}
+
+.row-2 {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.row-3 {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.row-4 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+@media (max-width: 768px) {
+  .row, .row-2, .row-3, .row-4 {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+}
+
+/* ==========================================================================
+   UTILITIES
+   ========================================================================== */
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-muted {
+  color: var(--color-gray);
+}
+
+.text-small {
+  font-size: var(--fs-sm);
+}
+
+.text-large {
+  font-size: var(--fs-lg);
+}
+
+.mt-1 { margin-top: var(--spacing-md); }
+.mt-2 { margin-top: var(--spacing-lg); }
+.mt-3 { margin-top: var(--spacing-2xl); }
+.mt-4 { margin-top: var(--spacing-3xl); }
+
+.mb-1 { margin-bottom: var(--spacing-md); }
+.mb-2 { margin-bottom: var(--spacing-lg); }
+.mb-3 { margin-bottom: var(--spacing-2xl); }
+.mb-4 { margin-bottom: var(--spacing-3xl); }
+
+.py-1 { padding: var(--spacing-md) 0; }
+.py-2 { padding: var(--spacing-lg) 0; }
+.py-3 { padding: var(--spacing-2xl) 0; }
+.py-4 { padding: var(--spacing-3xl) 0; }
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-1 { gap: var(--spacing-md); }
+.gap-2 { gap: var(--spacing-lg); }
+
+/* ==========================================================================
+   WORDPRESS CLASSES
+   ========================================================================== */
+
+.wp-block-image {
+  margin-bottom: var(--spacing-lg);
+}
+
+.wp-block-image img {
+  border-radius: var(--radius-lg);
+}
+
+.wp-block-gallery {
+  margin-bottom: var(--spacing-lg);
+}
+
+.wp-block-quote {
+  border-left: 4px solid var(--color-primary);
+  padding-left: var(--spacing-lg);
+  margin-left: 0;
+  margin-bottom: var(--spacing-lg);
+  font-style: italic;
+}
+
+/* ==========================================================================
+   FORM ELEMENTS
+   ========================================================================== */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="tel"],
+input[type="search"],
+textarea,
+select {
+  display: block;
+  width: 100%;
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+  border: 1px solid var(--color-gray-lighter);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  transition: border-color var(--transition-fast);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(139, 111, 71, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+  color: var(--color-gray-dark);
+}
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  h1 { font-size: var(--fs-3xl); }
+  h2 { font-size: var(--fs-2xl); }
+  h3 { font-size: var(--fs-xl); }
+  
+  .container {
+    padding: 0 var(--spacing-md);
+  }
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: var(--fs-2xl); }
+  h2 { font-size: var(--fs-xl); }
+  
+  .btn {
+    padding: var(--spacing-sm) var(--spacing-lg);
+    font-size: var(--fs-sm);
+  }
+}
