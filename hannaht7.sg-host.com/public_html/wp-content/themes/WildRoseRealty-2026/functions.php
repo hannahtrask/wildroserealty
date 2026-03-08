@@ -43,6 +43,13 @@ function wildrose_setup() {
     
     // Add support for block styles
     add_theme_support( 'wp-block-styles' );
+
+    // Add modern editor design tools for Gutenberg blocks.
+    add_theme_support( 'appearance-tools' );
+    add_theme_support( 'custom-line-height' );
+    add_theme_support( 'custom-spacing' );
+    add_theme_support( 'custom-units' );
+    add_theme_support( 'editor-spacing-sizes' );
     
     // Register navigation menus
     register_nav_menus( array(
@@ -160,6 +167,7 @@ function wildrose_register_post_types() {
         ),
         'public'      => true,
         'has_archive' => true,
+        'show_in_rest' => true,
         'supports'    => array( 'title', 'editor', 'thumbnail', 'excerpt', 'custom-fields' ),
         'rewrite'     => array( 'slug' => 'properties' ),
         'menu_icon'   => 'dashicons-location-alt',
@@ -173,6 +181,7 @@ function wildrose_register_post_types() {
         ),
         'public'      => true,
         'has_archive' => true,
+        'show_in_rest' => true,
         'supports'    => array( 'title', 'editor', 'thumbnail', 'excerpt', 'custom-fields' ),
         'rewrite'     => array( 'slug' => 'agents' ),
         'menu_icon'   => 'dashicons-businessperson',
@@ -191,6 +200,7 @@ function wildrose_register_taxonomies() {
             'singular_name' => esc_html__( 'Location', 'wildrose-realty' ),
         ),
         'hierarchical' => true,
+        'show_in_rest' => true,
         'rewrite'      => array( 'slug' => 'locations' ),
         'show_admin_column' => true,
     ) );
@@ -202,6 +212,7 @@ function wildrose_register_taxonomies() {
             'singular_name' => esc_html__( 'Property Type', 'wildrose-realty' ),
         ),
         'hierarchical' => true,
+        'show_in_rest' => true,
         'rewrite'      => array( 'slug' => 'property-types' ),
         'show_admin_column' => true,
     ) );
